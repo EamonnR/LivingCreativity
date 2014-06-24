@@ -28,11 +28,10 @@ io.sockets.on('connection', function (socket) {
 
     if(stream === null) {
       //Connect to twitter stream passing in filter for entire world.
-      twit.stream('statuses/filter', {track:'love'}, function(stream) {
+      twit.stream('statuses/filter', {track:'love,amour,amor'}, function(stream) {
           //console.log(stream);
           stream.on('data', function(data) {
               // Does the JSON result have coordinates
-              //console.log(data);
               if (data.coordinates){
                 if (data.coordinates !== null){
                   //If so then build up some nice json and send out to web sockets
@@ -71,7 +70,7 @@ io.sockets.on('connection', function (socket) {
               });
 
               stream.on('warning', function(warning) {
-                return console.log(warning);
+                //return console.log(warning);
               });
 
               stream.on('disconnect', function(disconnectMessage) {

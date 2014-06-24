@@ -69,7 +69,7 @@
 body {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
   font-family: verdana;
-  padding-top: 40px;
+  /*padding-top: 40px;*/
 }
 
 .brand{
@@ -116,10 +116,19 @@ body {
 }
 #tweets{
   position: absolute;
-  top: 60px;
-  left: 75px;
+  bottom: 0;
   z-index:1000;
-  font-size: 30px;
+  font-size: 12px;
+  height: 300px;
+  width: 300px;
+  overflow-y: auto;
+  background: white;
+}
+#toggle-tweets{
+  position: absolute;
+  z-index: 1000;
+  top: 5px;
+  left: 5px;
 }
 .iframe{
   padding-top:0px;
