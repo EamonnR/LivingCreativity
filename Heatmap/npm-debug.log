@@ -1,0 +1,1688 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose url raw npm
+5 verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+6 verbose url resolved https://registry.npmjs.org/npm
+7 info trying registry request attempt 1 at 13:03:53
+8 http GET https://registry.npmjs.org/npm
+9 verbose url raw grunt-cli
+10 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+11 verbose url resolved https://registry.npmjs.org/grunt-cli
+12 info trying registry request attempt 1 at 13:03:53
+13 verbose etag "EZOK5CQ2DO4PGU1ADXOCH69A3"
+14 http GET https://registry.npmjs.org/grunt-cli
+15 verbose url raw cordova
+16 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+17 verbose url resolved https://registry.npmjs.org/cordova
+18 info trying registry request attempt 1 at 13:03:53
+19 verbose etag "EH2N74ZCYWS42NJRY7WUCIV8N"
+20 http GET https://registry.npmjs.org/cordova
+21 verbose url raw bower
+22 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+23 verbose url resolved https://registry.npmjs.org/bower
+24 info trying registry request attempt 1 at 13:03:53
+25 verbose etag "5U6AZ343RPYJO0D8ZNAWRSBPO"
+26 http GET https://registry.npmjs.org/bower
+27 verbose url raw generator-angular
+28 verbose url resolving [ 'https://registry.npmjs.org/', './generator-angular' ]
+29 verbose url resolved https://registry.npmjs.org/generator-angular
+30 info trying registry request attempt 1 at 13:03:53
+31 verbose etag "GUMGSY4AM3KBNXUPAINVEBEO"
+32 http GET https://registry.npmjs.org/generator-angular
+33 verbose url raw generator-karma
+34 verbose url resolving [ 'https://registry.npmjs.org/', './generator-karma' ]
+35 verbose url resolved https://registry.npmjs.org/generator-karma
+36 info trying registry request attempt 1 at 13:03:53
+37 verbose etag "3IBQPG1INHXWUY5GMRFRHWB68"
+38 http GET https://registry.npmjs.org/generator-karma
+39 verbose url raw ionic
+40 verbose url resolving [ 'https://registry.npmjs.org/', './ionic' ]
+41 verbose url resolved https://registry.npmjs.org/ionic
+42 info trying registry request attempt 1 at 13:03:53
+43 verbose etag "8VEJCZ684KNTEAI07B8IWU2M2"
+44 http GET https://registry.npmjs.org/ionic
+45 verbose url raw generator-webapp
+46 verbose url resolving [ 'https://registry.npmjs.org/', './generator-webapp' ]
+47 verbose url resolved https://registry.npmjs.org/generator-webapp
+48 info trying registry request attempt 1 at 13:03:53
+49 verbose etag "4KHVPXK9HVGSGA6HWHW8IXGU5"
+50 http GET https://registry.npmjs.org/generator-webapp
+51 verbose url raw generator-mocha
+52 verbose url resolving [ 'https://registry.npmjs.org/', './generator-mocha' ]
+53 verbose url resolved https://registry.npmjs.org/generator-mocha
+54 info trying registry request attempt 1 at 13:03:53
+55 verbose etag "4XTKU4VCFLR63DZS0JNM8URKH"
+56 http GET https://registry.npmjs.org/generator-mocha
+57 verbose url raw karma-cli
+58 verbose url resolving [ 'https://registry.npmjs.org/', './karma-cli' ]
+59 verbose url resolved https://registry.npmjs.org/karma-cli
+60 info trying registry request attempt 1 at 13:03:53
+61 verbose etag "6NBA9DFNDW12Q0GF14VG6NPYU"
+62 http GET https://registry.npmjs.org/karma-cli
+63 verbose url raw ios-sim
+64 verbose url resolving [ 'https://registry.npmjs.org/', './ios-sim' ]
+65 verbose url resolved https://registry.npmjs.org/ios-sim
+66 info trying registry request attempt 1 at 13:03:53
+67 verbose etag "3UZ87317FYLPZ6CG1IQ4FN81K"
+68 http GET https://registry.npmjs.org/ios-sim
+69 verbose url raw yo
+70 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+71 verbose url resolved https://registry.npmjs.org/yo
+72 info trying registry request attempt 1 at 13:03:54
+73 verbose etag "1IT3X69M1W32KAM8V2RDPK9LS"
+74 http GET https://registry.npmjs.org/yo
+75 http 200 https://registry.npmjs.org/grunt-cli
+76 silly registry.get cb [ 200,
+76 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:23 GMT',
+76 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+76 silly registry.get     etag: '"383SAZQG21KE99L5T0LZDX5EE"',
+76 silly registry.get     'content-type': 'application/json',
+76 silly registry.get     'cache-control': 'max-age=30',
+76 silly registry.get     'content-length': '19738',
+76 silly registry.get     'accept-ranges': 'bytes',
+76 silly registry.get     via: '1.1 varnish',
+76 silly registry.get     age: '342',
+76 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+76 silly registry.get     'x-cache': 'HIT',
+76 silly registry.get     'x-cache-hits': '1',
+76 silly registry.get     'x-timer': 'S1403611583.600608,VS0,VE0',
+76 silly registry.get     vary: 'Accept',
+76 silly registry.get     'keep-alive': 'timeout=10, max=50',
+76 silly registry.get     connection: 'Keep-Alive' } ]
+77 verbose url raw nopt
+78 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+79 verbose url resolved https://registry.npmjs.org/nopt
+80 info trying registry request attempt 1 at 13:03:54
+81 verbose etag "82TJ7X8LEN5OTBFOO0NHUY8OI"
+82 http GET https://registry.npmjs.org/nopt
+83 verbose url raw findup-sync
+84 verbose url resolving [ 'https://registry.npmjs.org/', './findup-sync' ]
+85 verbose url resolved https://registry.npmjs.org/findup-sync
+86 info trying registry request attempt 1 at 13:03:54
+87 verbose etag "2SZ12VSB2H3Q0VV90LBRZLN74"
+88 http GET https://registry.npmjs.org/findup-sync
+89 verbose url raw resolve
+90 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+91 verbose url resolved https://registry.npmjs.org/resolve
+92 info trying registry request attempt 1 at 13:03:54
+93 verbose etag "BE91UBOL1N7M9CIST4DSMFFQ3"
+94 http GET https://registry.npmjs.org/resolve
+95 http 200 https://registry.npmjs.org/bower
+96 silly registry.get cb [ 200,
+96 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:23 GMT',
+96 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+96 silly registry.get     etag: '"6SBFIUM8LP5DNI1T4HZUJPHFJ"',
+96 silly registry.get     'content-type': 'application/json',
+96 silly registry.get     'cache-control': 'max-age=30',
+96 silly registry.get     'content-length': '100126',
+96 silly registry.get     'accept-ranges': 'bytes',
+96 silly registry.get     via: '1.1 varnish',
+96 silly registry.get     age: '12',
+96 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+96 silly registry.get     'x-cache': 'HIT',
+96 silly registry.get     'x-cache-hits': '1',
+96 silly registry.get     'x-timer': 'S1403611583.625394,VS0,VE0',
+96 silly registry.get     vary: 'Accept',
+96 silly registry.get     'keep-alive': 'timeout=10, max=50',
+96 silly registry.get     connection: 'Keep-Alive' } ]
+97 http 200 https://registry.npmjs.org/generator-angular
+98 silly registry.get cb [ 200,
+98 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:23 GMT',
+98 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+98 silly registry.get     etag: '"879LQ514N14CEY6MQT6NPMXEW"',
+98 silly registry.get     'content-type': 'application/json',
+98 silly registry.get     'cache-control': 'max-age=30',
+98 silly registry.get     'content-length': '46862',
+98 silly registry.get     'accept-ranges': 'bytes',
+98 silly registry.get     via: '1.1 varnish',
+98 silly registry.get     age: '3158',
+98 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+98 silly registry.get     'x-cache': 'HIT',
+98 silly registry.get     'x-cache-hits': '1',
+98 silly registry.get     'x-timer': 'S1403611583.626153,VS0,VE169',
+98 silly registry.get     vary: 'Accept',
+98 silly registry.get     'keep-alive': 'timeout=10, max=50',
+98 silly registry.get     connection: 'Keep-Alive' } ]
+99 http 200 https://registry.npmjs.org/generator-karma
+100 silly registry.get cb [ 200,
+100 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:23 GMT',
+100 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+100 silly registry.get     etag: '"B1OCQ3SL0TCP5C2FWL4E8UV9S"',
+100 silly registry.get     'content-type': 'application/json',
+100 silly registry.get     'cache-control': 'max-age=30',
+100 silly registry.get     'content-length': '19521',
+100 silly registry.get     'accept-ranges': 'bytes',
+100 silly registry.get     via: '1.1 varnish',
+100 silly registry.get     age: '0',
+100 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+100 silly registry.get     'x-cache': 'MISS',
+100 silly registry.get     'x-cache-hits': '0',
+100 silly registry.get     'x-timer': 'S1403611583.657861,VS0,VE205',
+100 silly registry.get     vary: 'Accept',
+100 silly registry.get     'keep-alive': 'timeout=10, max=49',
+100 silly registry.get     connection: 'Keep-Alive' } ]
+101 http 200 https://registry.npmjs.org/generator-mocha
+102 silly registry.get cb [ 200,
+102 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+102 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+102 silly registry.get     etag: '"A3H1L1CTC9V00R1GS3NN02U0K"',
+102 silly registry.get     'content-type': 'application/json',
+102 silly registry.get     'cache-control': 'max-age=30',
+102 silly registry.get     'content-length': '5718',
+102 silly registry.get     'accept-ranges': 'bytes',
+102 silly registry.get     via: '1.1 varnish',
+102 silly registry.get     age: '1814',
+102 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+102 silly registry.get     'x-cache': 'HIT',
+102 silly registry.get     'x-cache-hits': '1',
+102 silly registry.get     'x-timer': 'S1403611583.947718,VS0,VE98',
+102 silly registry.get     vary: 'Accept',
+102 silly registry.get     'keep-alive': 'timeout=10, max=48',
+102 silly registry.get     connection: 'Keep-Alive' } ]
+103 verbose url raw yeoman-generator
+104 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-generator' ]
+105 verbose url resolved https://registry.npmjs.org/yeoman-generator
+106 info trying registry request attempt 1 at 13:03:54
+107 verbose etag "EDHW77S5T3TI6NAGT6FIC9TFE"
+108 http GET https://registry.npmjs.org/yeoman-generator
+109 http 200 https://registry.npmjs.org/npm
+110 silly registry.get cb [ 200,
+110 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:23 GMT',
+110 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+110 silly registry.get     etag: '"8OG8B0ZQR1FDAZNT0NV247YSR"',
+110 silly registry.get     'content-type': 'application/json',
+110 silly registry.get     'cache-control': 'max-age=30',
+110 silly registry.get     'content-length': '950241',
+110 silly registry.get     'accept-ranges': 'bytes',
+110 silly registry.get     via: '1.1 varnish',
+110 silly registry.get     age: '13',
+110 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+110 silly registry.get     'x-cache': 'HIT',
+110 silly registry.get     'x-cache-hits': '3',
+110 silly registry.get     'x-timer': 'S1403611583.602677,VS0,VE0',
+110 silly registry.get     vary: 'Accept',
+110 silly registry.get     'keep-alive': 'timeout=10, max=50',
+110 silly registry.get     connection: 'Keep-Alive' } ]
+111 http 200 https://registry.npmjs.org/karma-cli
+112 silly registry.get cb [ 200,
+112 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+112 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+112 silly registry.get     etag: '"D5LEFGQ6481T72583G7TGZS58"',
+112 silly registry.get     'content-type': 'application/json',
+112 silly registry.get     'cache-control': 'max-age=30',
+112 silly registry.get     'content-length': '5880',
+112 silly registry.get     'accept-ranges': 'bytes',
+112 silly registry.get     via: '1.1 varnish',
+112 silly registry.get     age: '0',
+112 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+112 silly registry.get     'x-cache': 'MISS',
+112 silly registry.get     'x-cache-hits': '0',
+112 silly registry.get     'x-timer': 'S1403611584.085851,VS0,VE103',
+112 silly registry.get     vary: 'Accept',
+112 silly registry.get     'keep-alive': 'timeout=10, max=47',
+112 silly registry.get     connection: 'Keep-Alive' } ]
+113 verbose url raw resolve
+114 verbose url resolving [ 'https://registry.npmjs.org/', './resolve' ]
+115 verbose url resolved https://registry.npmjs.org/resolve
+116 info trying registry request attempt 1 at 13:03:54
+117 verbose etag "BE91UBOL1N7M9CIST4DSMFFQ3"
+118 http GET https://registry.npmjs.org/resolve
+119 http 200 https://registry.npmjs.org/yo
+120 silly registry.get cb [ 200,
+120 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+120 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+120 silly registry.get     etag: '"7ZVMM4J01V6W5TL92B5P4A4JZ"',
+120 silly registry.get     'content-type': 'application/json',
+120 silly registry.get     'cache-control': 'max-age=30',
+120 silly registry.get     'content-length': '40242',
+120 silly registry.get     'accept-ranges': 'bytes',
+120 silly registry.get     via: '1.1 varnish',
+120 silly registry.get     age: '1333',
+120 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+120 silly registry.get     'x-cache': 'HIT',
+120 silly registry.get     'x-cache-hits': '1',
+120 silly registry.get     'x-timer': 'S1403611584.219073,VS0,VE0',
+120 silly registry.get     vary: 'Accept',
+120 silly registry.get     'keep-alive': 'timeout=10, max=46',
+120 silly registry.get     connection: 'Keep-Alive' } ]
+121 http 200 https://registry.npmjs.org/ionic
+122 silly registry.get cb [ 200,
+122 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+122 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+122 silly registry.get     etag: '"EC4VI1WHA03D4MYH810OE140D"',
+122 silly registry.get     'content-type': 'application/json',
+122 silly registry.get     'cache-control': 'max-age=30',
+122 silly registry.get     'content-length': '29374',
+122 silly registry.get     'accept-ranges': 'bytes',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     age: '0',
+122 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+122 silly registry.get     'x-cache': 'MISS',
+122 silly registry.get     'x-cache-hits': '0',
+122 silly registry.get     'x-timer': 'S1403611583.746727,VS0,VE336',
+122 silly registry.get     vary: 'Accept',
+122 silly registry.get     'keep-alive': 'timeout=10, max=49',
+122 silly registry.get     connection: 'Keep-Alive' } ]
+123 http 200 https://registry.npmjs.org/nopt
+124 silly registry.get cb [ 200,
+124 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+124 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+124 silly registry.get     etag: '"BA5T6RGWU2CVIS5XHWZEBR2W7"',
+124 silly registry.get     'content-type': 'application/json',
+124 silly registry.get     'cache-control': 'max-age=30',
+124 silly registry.get     'content-length': '25123',
+124 silly registry.get     'accept-ranges': 'bytes',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     age: '13',
+124 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '1',
+124 silly registry.get     'x-timer': 'S1403611584.275165,VS0,VE0',
+124 silly registry.get     vary: 'Accept',
+124 silly registry.get     'keep-alive': 'timeout=10, max=45',
+124 silly registry.get     connection: 'Keep-Alive' } ]
+125 http 200 https://registry.npmjs.org/findup-sync
+126 silly registry.get cb [ 200,
+126 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+126 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+126 silly registry.get     etag: '"A5GURQYFPZTMB7CQMGUCB2RJ6"',
+126 silly registry.get     'content-type': 'application/json',
+126 silly registry.get     'cache-control': 'max-age=30',
+126 silly registry.get     'content-length': '7183',
+126 silly registry.get     'accept-ranges': 'bytes',
+126 silly registry.get     via: '1.1 varnish',
+126 silly registry.get     age: '7',
+126 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+126 silly registry.get     'x-cache': 'HIT',
+126 silly registry.get     'x-cache-hits': '2',
+126 silly registry.get     'x-timer': 'S1403611584.302864,VS0,VE0',
+126 silly registry.get     vary: 'Accept',
+126 silly registry.get     'keep-alive': 'timeout=10, max=48',
+126 silly registry.get     connection: 'Keep-Alive' } ]
+127 verbose url raw glob
+128 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+129 verbose url resolved https://registry.npmjs.org/glob
+130 info trying registry request attempt 1 at 13:03:54
+131 verbose etag "A9TEYB27VDZR2DDLMZB2O0BWV"
+132 http GET https://registry.npmjs.org/glob
+133 verbose url raw lodash
+134 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+135 verbose url resolved https://registry.npmjs.org/lodash
+136 info trying registry request attempt 1 at 13:03:54
+137 verbose etag "3U5RCK0XK09VPTLH89V5E1A5E"
+138 http GET https://registry.npmjs.org/lodash
+139 http 200 https://registry.npmjs.org/ios-sim
+140 silly registry.get cb [ 200,
+140 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+140 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+140 silly registry.get     etag: '"CFEQUHPDQ5QP6TGE0UAMP2G82"',
+140 silly registry.get     'content-type': 'application/json',
+140 silly registry.get     'cache-control': 'max-age=30',
+140 silly registry.get     'content-length': '6538',
+140 silly registry.get     'accept-ranges': 'bytes',
+140 silly registry.get     via: '1.1 varnish',
+140 silly registry.get     age: '6081',
+140 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+140 silly registry.get     'x-cache': 'HIT',
+140 silly registry.get     'x-cache-hits': '1',
+140 silly registry.get     'x-timer': 'S1403611584.155825,VS0,VE166',
+140 silly registry.get     vary: 'Accept',
+140 silly registry.get     'keep-alive': 'timeout=10, max=49',
+140 silly registry.get     connection: 'Keep-Alive' } ]
+141 http 200 https://registry.npmjs.org/resolve
+142 silly registry.get cb [ 200,
+142 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+142 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+142 silly registry.get     etag: '"4H8Z3I5F9NA8EKJLHBY9VWF1V"',
+142 silly registry.get     'content-type': 'application/json',
+142 silly registry.get     'cache-control': 'max-age=30',
+142 silly registry.get     'content-length': '32569',
+142 silly registry.get     'accept-ranges': 'bytes',
+142 silly registry.get     via: '1.1 varnish',
+142 silly registry.get     age: '6',
+142 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+142 silly registry.get     'x-cache': 'HIT',
+142 silly registry.get     'x-cache-hits': '7',
+142 silly registry.get     'x-timer': 'S1403611584.351694,VS0,VE0',
+142 silly registry.get     vary: 'Accept',
+142 silly registry.get     'keep-alive': 'timeout=10, max=48',
+142 silly registry.get     connection: 'Keep-Alive' } ]
+143 http 200 https://registry.npmjs.org/resolve
+144 silly registry.get cb [ 200,
+144 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+144 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+144 silly registry.get     etag: '"4H8Z3I5F9NA8EKJLHBY9VWF1V"',
+144 silly registry.get     'content-type': 'application/json',
+144 silly registry.get     'cache-control': 'max-age=30',
+144 silly registry.get     'content-length': '32569',
+144 silly registry.get     'accept-ranges': 'bytes',
+144 silly registry.get     via: '1.1 varnish',
+144 silly registry.get     age: '5',
+144 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+144 silly registry.get     'x-cache': 'HIT',
+144 silly registry.get     'x-cache-hits': '2',
+144 silly registry.get     'x-timer': 'S1403611584.330197,VS0,VE0',
+144 silly registry.get     vary: 'Accept',
+144 silly registry.get     'keep-alive': 'timeout=10, max=44',
+144 silly registry.get     connection: 'Keep-Alive' } ]
+145 http 200 https://registry.npmjs.org/glob
+146 silly registry.get cb [ 200,
+146 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+146 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 silly registry.get     etag: '"PRZ5E6XT1NPSFIXJJE3IM6YT"',
+146 silly registry.get     'content-type': 'application/json',
+146 silly registry.get     'cache-control': 'max-age=30',
+146 silly registry.get     'content-length': '48746',
+146 silly registry.get     'accept-ranges': 'bytes',
+146 silly registry.get     via: '1.1 varnish',
+146 silly registry.get     age: '486',
+146 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+146 silly registry.get     'x-cache': 'HIT',
+146 silly registry.get     'x-cache-hits': '1',
+146 silly registry.get     'x-timer': 'S1403611584.380551,VS0,VE0',
+146 silly registry.get     vary: 'Accept',
+146 silly registry.get     'keep-alive': 'timeout=10, max=47',
+146 silly registry.get     connection: 'Keep-Alive' } ]
+147 http 200 https://registry.npmjs.org/lodash
+148 silly registry.get cb [ 200,
+148 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+148 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+148 silly registry.get     etag: '"DNDR0MB01HKWQLPBRKX1LS71M"',
+148 silly registry.get     'content-type': 'application/json',
+148 silly registry.get     'cache-control': 'max-age=30',
+148 silly registry.get     'content-length': '71734',
+148 silly registry.get     'accept-ranges': 'bytes',
+148 silly registry.get     via: '1.1 varnish',
+148 silly registry.get     age: '15',
+148 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+148 silly registry.get     'x-cache': 'HIT',
+148 silly registry.get     'x-cache-hits': '2',
+148 silly registry.get     'x-timer': 'S1403611584.384146,VS0,VE0',
+148 silly registry.get     vary: 'Accept',
+148 silly registry.get     'keep-alive': 'timeout=10, max=43',
+148 silly registry.get     connection: 'Keep-Alive' } ]
+149 http 200 https://registry.npmjs.org/generator-webapp
+150 silly registry.get cb [ 200,
+150 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+150 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+150 silly registry.get     etag: '"4MODHNKOO1B1WM670MP6QJ4FW"',
+150 silly registry.get     'content-type': 'application/json',
+150 silly registry.get     'cache-control': 'max-age=30',
+150 silly registry.get     'content-length': '41705',
+150 silly registry.get     'accept-ranges': 'bytes',
+150 silly registry.get     via: '1.1 varnish',
+150 silly registry.get     age: '0',
+150 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+150 silly registry.get     'x-cache': 'MISS',
+150 silly registry.get     'x-cache-hits': '0',
+150 silly registry.get     'x-timer': 'S1403611583.903475,VS0,VE518',
+150 silly registry.get     vary: 'Accept',
+150 silly registry.get     'keep-alive': 'timeout=10, max=49',
+150 silly registry.get     connection: 'Keep-Alive' } ]
+151 http 200 https://registry.npmjs.org/yeoman-generator
+152 silly registry.get cb [ 200,
+152 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+152 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+152 silly registry.get     etag: '"DW37MRKWL8C43C09C6YI4DET"',
+152 silly registry.get     'content-type': 'application/json',
+152 silly registry.get     'cache-control': 'max-age=30',
+152 silly registry.get     'content-length': '65941',
+152 silly registry.get     'accept-ranges': 'bytes',
+152 silly registry.get     via: '1.1 varnish',
+152 silly registry.get     age: '388',
+152 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+152 silly registry.get     'x-cache': 'HIT',
+152 silly registry.get     'x-cache-hits': '1',
+152 silly registry.get     'x-timer': 'S1403611584.331853,VS0,VE139',
+152 silly registry.get     vary: 'Accept',
+152 silly registry.get     'keep-alive': 'timeout=10, max=47',
+152 silly registry.get     connection: 'Keep-Alive' } ]
+153 http 200 https://registry.npmjs.org/cordova
+154 silly registry.get cb [ 200,
+154 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:24 GMT',
+154 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+154 silly registry.get     etag: '"2GZVR1P3TXA4RL33WIDI9Q4E5"',
+154 silly registry.get     'content-type': 'application/json',
+154 silly registry.get     'cache-control': 'max-age=30',
+154 silly registry.get     'content-length': '289862',
+154 silly registry.get     'accept-ranges': 'bytes',
+154 silly registry.get     via: '1.1 varnish',
+154 silly registry.get     age: '1',
+154 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+154 silly registry.get     'x-cache': 'MISS',
+154 silly registry.get     'x-cache-hits': '0',
+154 silly registry.get     'x-timer': 'S1403611583.604300,VS0,VE1381',
+154 silly registry.get     vary: 'Accept',
+154 silly registry.get     'keep-alive': 'timeout=10, max=50',
+154 silly registry.get     connection: 'Keep-Alive' } ]
+155 info outdated updating [ [ '/usr/local/lib', 'bower', '1.3.2', '1.3.5', '1.3.5', '*' ],
+155 info outdated   [ '/usr/local/lib',
+155 info outdated     'generator-angular',
+155 info outdated     '0.8.0',
+155 info outdated     '0.9.1',
+155 info outdated     '0.9.1',
+155 info outdated     '*' ],
+155 info outdated   [ '/usr/local/lib',
+155 info outdated     'generator-karma',
+155 info outdated     '0.7.0',
+155 info outdated     '0.8.2',
+155 info outdated     '0.8.2',
+155 info outdated     '*' ],
+155 info outdated   [ '/usr/local/lib', 'npm', '1.4.3', '1.4.16', '1.4.16', '*' ],
+155 info outdated   [ '/usr/local/lib', 'yo', '1.1.2', '1.2.0', '1.2.0', '*' ],
+155 info outdated   [ '/usr/local/lib', 'ionic', '1.0.1-beta', '1.0.14', '1.0.14', '*' ],
+155 info outdated   [ '/usr/local/lib/node_modules/karma-cli',
+155 info outdated     'resolve',
+155 info outdated     '0.5.1',
+155 info outdated     '0.5.1',
+155 info outdated     '0.7.1',
+155 info outdated     '~0.5.1' ],
+155 info outdated   [ '/usr/local/lib/node_modules/grunt-cli',
+155 info outdated     'nopt',
+155 info outdated     '1.0.10',
+155 info outdated     '1.0.10',
+155 info outdated     '3.0.0',
+155 info outdated     '~1.0.10' ],
+155 info outdated   [ '/usr/local/lib/node_modules/grunt-cli',
+155 info outdated     'resolve',
+155 info outdated     '0.3.1',
+155 info outdated     '0.3.1',
+155 info outdated     '0.7.1',
+155 info outdated     '~0.3.1' ],
+155 info outdated   [ '/usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync',
+155 info outdated     'glob',
+155 info outdated     '3.2.9',
+155 info outdated     '3.2.11',
+155 info outdated     '4.0.2',
+155 info outdated     '~3.2.9' ],
+155 info outdated   [ '/usr/local/lib',
+155 info outdated     'generator-webapp',
+155 info outdated     '0.4.8',
+155 info outdated     '0.5.0-rc.1',
+155 info outdated     '0.4.9',
+155 info outdated     '*' ],
+155 info outdated   [ '/usr/local/lib/node_modules/generator-mocha',
+155 info outdated     'yeoman-generator',
+155 info outdated     '0.14.2',
+155 info outdated     '0.14.2',
+155 info outdated     '0.17.0',
+155 info outdated     '~0.14.0' ],
+155 info outdated   [ '/usr/local/lib',
+155 info outdated     'cordova',
+155 info outdated     '3.4.0-0.1.3',
+155 info outdated     '3.5.0-0.2.4',
+155 info outdated     '3.5.0-0.2.4',
+155 info outdated     '*' ] ]
+156 verbose install where,what [ '/usr/local/lib', [ 'bower@1.3.5' ] ]
+157 verbose install where,what [ '/usr/local/lib', [ 'generator-angular@0.9.1' ] ]
+158 verbose install where,what [ '/usr/local/lib', [ 'generator-karma@0.8.2' ] ]
+159 verbose install where,what [ '/usr/local/lib', [ 'npm@1.4.16' ] ]
+160 verbose install where,what [ '/usr/local/lib', [ 'yo@1.2.0' ] ]
+161 verbose install where,what [ '/usr/local/lib', [ 'ionic@1.0.14' ] ]
+162 verbose install where,what [ '/usr/local/lib/node_modules/karma-cli', [ 'resolve@0.5.1' ] ]
+163 verbose install where,what [ '/usr/local/lib/node_modules/grunt-cli', [ 'nopt@1.0.10' ] ]
+164 verbose install where,what [ '/usr/local/lib/node_modules/grunt-cli', [ 'resolve@0.3.1' ] ]
+165 verbose install where,what [ '/usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync',
+165 verbose install   [ 'glob@3.2.11' ] ]
+166 verbose install where,what [ '/usr/local/lib', [ 'generator-webapp@0.5.0-rc.1' ] ]
+167 verbose install where,what [ '/usr/local/lib/node_modules/generator-mocha',
+167 verbose install   [ 'yeoman-generator@0.14.2' ] ]
+168 verbose install where,what [ '/usr/local/lib', [ 'cordova@3.5.0-0.2.4' ] ]
+169 verbose readDependencies using package.json deps
+170 verbose cache add [ 'resolve@0.5.1', null ]
+171 verbose cache add name=undefined spec="resolve@0.5.1" args=["resolve@0.5.1",null]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: 'resolve@0.5.1',
+172 verbose parsed url   path: 'resolve@0.5.1',
+172 verbose parsed url   href: 'resolve@0.5.1' }
+173 verbose cache add name="resolve" spec="0.5.1" args=["resolve","0.5.1"]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: '0.5.1',
+174 verbose parsed url   path: '0.5.1',
+174 verbose parsed url   href: '0.5.1' }
+175 verbose addNamed [ 'resolve', '0.5.1' ]
+176 verbose addNamed [ '0.5.1', '0.5.1' ]
+177 verbose readDependencies using package.json deps
+178 verbose cache add [ 'nopt@1.0.10', null ]
+179 verbose cache add name=undefined spec="nopt@1.0.10" args=["nopt@1.0.10",null]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: 'nopt@1.0.10',
+180 verbose parsed url   path: 'nopt@1.0.10',
+180 verbose parsed url   href: 'nopt@1.0.10' }
+181 verbose cache add name="nopt" spec="1.0.10" args=["nopt","1.0.10"]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: '1.0.10',
+182 verbose parsed url   path: '1.0.10',
+182 verbose parsed url   href: '1.0.10' }
+183 verbose addNamed [ 'nopt', '1.0.10' ]
+184 verbose addNamed [ '1.0.10', '1.0.10' ]
+185 verbose readDependencies using package.json deps
+186 verbose cache add [ 'resolve@0.3.1', null ]
+187 verbose cache add name=undefined spec="resolve@0.3.1" args=["resolve@0.3.1",null]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: 'resolve@0.3.1',
+188 verbose parsed url   path: 'resolve@0.3.1',
+188 verbose parsed url   href: 'resolve@0.3.1' }
+189 verbose cache add name="resolve" spec="0.3.1" args=["resolve","0.3.1"]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: '0.3.1',
+190 verbose parsed url   path: '0.3.1',
+190 verbose parsed url   href: '0.3.1' }
+191 verbose addNamed [ 'resolve', '0.3.1' ]
+192 verbose addNamed [ '0.3.1', '0.3.1' ]
+193 verbose readDependencies using package.json deps
+194 verbose cache add [ 'glob@3.2.11', null ]
+195 verbose cache add name=undefined spec="glob@3.2.11" args=["glob@3.2.11",null]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: 'glob@3.2.11',
+196 verbose parsed url   path: 'glob@3.2.11',
+196 verbose parsed url   href: 'glob@3.2.11' }
+197 verbose cache add name="glob" spec="3.2.11" args=["glob","3.2.11"]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: '3.2.11',
+198 verbose parsed url   path: '3.2.11',
+198 verbose parsed url   href: '3.2.11' }
+199 verbose addNamed [ 'glob', '3.2.11' ]
+200 verbose addNamed [ '3.2.11', '3.2.11' ]
+201 verbose readDependencies using package.json deps
+202 verbose cache add [ 'yeoman-generator@0.14.2', null ]
+203 verbose cache add name=undefined spec="yeoman-generator@0.14.2" args=["yeoman-generator@0.14.2",null]
+204 verbose parsed url { protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: 'yeoman-generator@0.14.2',
+204 verbose parsed url   path: 'yeoman-generator@0.14.2',
+204 verbose parsed url   href: 'yeoman-generator@0.14.2' }
+205 verbose cache add name="yeoman-generator" spec="0.14.2" args=["yeoman-generator","0.14.2"]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: '0.14.2',
+206 verbose parsed url   path: '0.14.2',
+206 verbose parsed url   href: '0.14.2' }
+207 verbose addNamed [ 'yeoman-generator', '0.14.2' ]
+208 verbose addNamed [ '0.14.2', '0.14.2' ]
+209 silly lockFile c04da539-resolve-0-5-1 resolve@0.5.1
+210 verbose lock resolve@0.5.1 /Users/erohan/.npm/c04da539-resolve-0-5-1.lock
+211 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+212 verbose lock nopt@1.0.10 /Users/erohan/.npm/1be903a1-nopt-1-0-10.lock
+213 silly lockFile 95464470-resolve-0-3-1 resolve@0.3.1
+214 verbose lock resolve@0.3.1 /Users/erohan/.npm/95464470-resolve-0-3-1.lock
+215 silly lockFile 3fffafa6-glob-3-2-11 glob@3.2.11
+216 verbose lock glob@3.2.11 /Users/erohan/.npm/3fffafa6-glob-3-2-11.lock
+217 silly lockFile 45422672-yeoman-generator-0-14-2 yeoman-generator@0.14.2
+218 verbose lock yeoman-generator@0.14.2 /Users/erohan/.npm/45422672-yeoman-generator-0-14-2.lock
+219 verbose cache add [ 'bower@1.3.5', null ]
+220 verbose cache add name=undefined spec="bower@1.3.5" args=["bower@1.3.5",null]
+221 verbose parsed url { protocol: null,
+221 verbose parsed url   slashes: null,
+221 verbose parsed url   auth: null,
+221 verbose parsed url   host: null,
+221 verbose parsed url   port: null,
+221 verbose parsed url   hostname: null,
+221 verbose parsed url   hash: null,
+221 verbose parsed url   search: null,
+221 verbose parsed url   query: null,
+221 verbose parsed url   pathname: 'bower@1.3.5',
+221 verbose parsed url   path: 'bower@1.3.5',
+221 verbose parsed url   href: 'bower@1.3.5' }
+222 verbose cache add name="bower" spec="1.3.5" args=["bower","1.3.5"]
+223 verbose parsed url { protocol: null,
+223 verbose parsed url   slashes: null,
+223 verbose parsed url   auth: null,
+223 verbose parsed url   host: null,
+223 verbose parsed url   port: null,
+223 verbose parsed url   hostname: null,
+223 verbose parsed url   hash: null,
+223 verbose parsed url   search: null,
+223 verbose parsed url   query: null,
+223 verbose parsed url   pathname: '1.3.5',
+223 verbose parsed url   path: '1.3.5',
+223 verbose parsed url   href: '1.3.5' }
+224 verbose addNamed [ 'bower', '1.3.5' ]
+225 verbose addNamed [ '1.3.5', '1.3.5' ]
+226 silly lockFile ba50d98b-bower-1-3-5 bower@1.3.5
+227 verbose lock bower@1.3.5 /Users/erohan/.npm/ba50d98b-bower-1-3-5.lock
+228 verbose cache add [ 'generator-angular@0.9.1', null ]
+229 verbose cache add name=undefined spec="generator-angular@0.9.1" args=["generator-angular@0.9.1",null]
+230 verbose parsed url { protocol: null,
+230 verbose parsed url   slashes: null,
+230 verbose parsed url   auth: null,
+230 verbose parsed url   host: null,
+230 verbose parsed url   port: null,
+230 verbose parsed url   hostname: null,
+230 verbose parsed url   hash: null,
+230 verbose parsed url   search: null,
+230 verbose parsed url   query: null,
+230 verbose parsed url   pathname: 'generator-angular@0.9.1',
+230 verbose parsed url   path: 'generator-angular@0.9.1',
+230 verbose parsed url   href: 'generator-angular@0.9.1' }
+231 verbose cache add name="generator-angular" spec="0.9.1" args=["generator-angular","0.9.1"]
+232 verbose parsed url { protocol: null,
+232 verbose parsed url   slashes: null,
+232 verbose parsed url   auth: null,
+232 verbose parsed url   host: null,
+232 verbose parsed url   port: null,
+232 verbose parsed url   hostname: null,
+232 verbose parsed url   hash: null,
+232 verbose parsed url   search: null,
+232 verbose parsed url   query: null,
+232 verbose parsed url   pathname: '0.9.1',
+232 verbose parsed url   path: '0.9.1',
+232 verbose parsed url   href: '0.9.1' }
+233 verbose addNamed [ 'generator-angular', '0.9.1' ]
+234 verbose addNamed [ '0.9.1', '0.9.1' ]
+235 silly lockFile 997374d5-generator-angular-0-9-1 generator-angular@0.9.1
+236 verbose lock generator-angular@0.9.1 /Users/erohan/.npm/997374d5-generator-angular-0-9-1.lock
+237 verbose cache add [ 'generator-karma@0.8.2', null ]
+238 verbose cache add name=undefined spec="generator-karma@0.8.2" args=["generator-karma@0.8.2",null]
+239 verbose parsed url { protocol: null,
+239 verbose parsed url   slashes: null,
+239 verbose parsed url   auth: null,
+239 verbose parsed url   host: null,
+239 verbose parsed url   port: null,
+239 verbose parsed url   hostname: null,
+239 verbose parsed url   hash: null,
+239 verbose parsed url   search: null,
+239 verbose parsed url   query: null,
+239 verbose parsed url   pathname: 'generator-karma@0.8.2',
+239 verbose parsed url   path: 'generator-karma@0.8.2',
+239 verbose parsed url   href: 'generator-karma@0.8.2' }
+240 verbose cache add name="generator-karma" spec="0.8.2" args=["generator-karma","0.8.2"]
+241 verbose parsed url { protocol: null,
+241 verbose parsed url   slashes: null,
+241 verbose parsed url   auth: null,
+241 verbose parsed url   host: null,
+241 verbose parsed url   port: null,
+241 verbose parsed url   hostname: null,
+241 verbose parsed url   hash: null,
+241 verbose parsed url   search: null,
+241 verbose parsed url   query: null,
+241 verbose parsed url   pathname: '0.8.2',
+241 verbose parsed url   path: '0.8.2',
+241 verbose parsed url   href: '0.8.2' }
+242 verbose addNamed [ 'generator-karma', '0.8.2' ]
+243 verbose addNamed [ '0.8.2', '0.8.2' ]
+244 silly lockFile 494058c9-generator-karma-0-8-2 generator-karma@0.8.2
+245 verbose lock generator-karma@0.8.2 /Users/erohan/.npm/494058c9-generator-karma-0-8-2.lock
+246 verbose cache add [ 'npm@1.4.16', null ]
+247 verbose cache add name=undefined spec="npm@1.4.16" args=["npm@1.4.16",null]
+248 verbose parsed url { protocol: null,
+248 verbose parsed url   slashes: null,
+248 verbose parsed url   auth: null,
+248 verbose parsed url   host: null,
+248 verbose parsed url   port: null,
+248 verbose parsed url   hostname: null,
+248 verbose parsed url   hash: null,
+248 verbose parsed url   search: null,
+248 verbose parsed url   query: null,
+248 verbose parsed url   pathname: 'npm@1.4.16',
+248 verbose parsed url   path: 'npm@1.4.16',
+248 verbose parsed url   href: 'npm@1.4.16' }
+249 verbose cache add name="npm" spec="1.4.16" args=["npm","1.4.16"]
+250 verbose parsed url { protocol: null,
+250 verbose parsed url   slashes: null,
+250 verbose parsed url   auth: null,
+250 verbose parsed url   host: null,
+250 verbose parsed url   port: null,
+250 verbose parsed url   hostname: null,
+250 verbose parsed url   hash: null,
+250 verbose parsed url   search: null,
+250 verbose parsed url   query: null,
+250 verbose parsed url   pathname: '1.4.16',
+250 verbose parsed url   path: '1.4.16',
+250 verbose parsed url   href: '1.4.16' }
+251 verbose addNamed [ 'npm', '1.4.16' ]
+252 verbose addNamed [ '1.4.16', '1.4.16' ]
+253 silly lockFile 989ee2ca-npm-1-4-16 npm@1.4.16
+254 verbose lock npm@1.4.16 /Users/erohan/.npm/989ee2ca-npm-1-4-16.lock
+255 verbose cache add [ 'yo@1.2.0', null ]
+256 verbose cache add name=undefined spec="yo@1.2.0" args=["yo@1.2.0",null]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: 'yo@1.2.0',
+257 verbose parsed url   path: 'yo@1.2.0',
+257 verbose parsed url   href: 'yo@1.2.0' }
+258 verbose cache add name="yo" spec="1.2.0" args=["yo","1.2.0"]
+259 verbose parsed url { protocol: null,
+259 verbose parsed url   slashes: null,
+259 verbose parsed url   auth: null,
+259 verbose parsed url   host: null,
+259 verbose parsed url   port: null,
+259 verbose parsed url   hostname: null,
+259 verbose parsed url   hash: null,
+259 verbose parsed url   search: null,
+259 verbose parsed url   query: null,
+259 verbose parsed url   pathname: '1.2.0',
+259 verbose parsed url   path: '1.2.0',
+259 verbose parsed url   href: '1.2.0' }
+260 verbose addNamed [ 'yo', '1.2.0' ]
+261 verbose addNamed [ '1.2.0', '1.2.0' ]
+262 silly lockFile 43d9b248-yo-1-2-0 yo@1.2.0
+263 verbose lock yo@1.2.0 /Users/erohan/.npm/43d9b248-yo-1-2-0.lock
+264 verbose cache add [ 'ionic@1.0.14', null ]
+265 verbose cache add name=undefined spec="ionic@1.0.14" args=["ionic@1.0.14",null]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: 'ionic@1.0.14',
+266 verbose parsed url   path: 'ionic@1.0.14',
+266 verbose parsed url   href: 'ionic@1.0.14' }
+267 verbose cache add name="ionic" spec="1.0.14" args=["ionic","1.0.14"]
+268 verbose parsed url { protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: '1.0.14',
+268 verbose parsed url   path: '1.0.14',
+268 verbose parsed url   href: '1.0.14' }
+269 verbose addNamed [ 'ionic', '1.0.14' ]
+270 verbose addNamed [ '1.0.14', '1.0.14' ]
+271 silly lockFile 7c90bd7d-ionic-1-0-14 ionic@1.0.14
+272 verbose lock ionic@1.0.14 /Users/erohan/.npm/7c90bd7d-ionic-1-0-14.lock
+273 verbose cache add [ 'generator-webapp@0.5.0-rc.1', null ]
+274 verbose cache add name=undefined spec="generator-webapp@0.5.0-rc.1" args=["generator-webapp@0.5.0-rc.1",null]
+275 verbose parsed url { protocol: null,
+275 verbose parsed url   slashes: null,
+275 verbose parsed url   auth: null,
+275 verbose parsed url   host: null,
+275 verbose parsed url   port: null,
+275 verbose parsed url   hostname: null,
+275 verbose parsed url   hash: null,
+275 verbose parsed url   search: null,
+275 verbose parsed url   query: null,
+275 verbose parsed url   pathname: 'generator-webapp@0.5.0-rc.1',
+275 verbose parsed url   path: 'generator-webapp@0.5.0-rc.1',
+275 verbose parsed url   href: 'generator-webapp@0.5.0-rc.1' }
+276 verbose cache add name="generator-webapp" spec="0.5.0-rc.1" args=["generator-webapp","0.5.0-rc.1"]
+277 verbose parsed url { protocol: null,
+277 verbose parsed url   slashes: null,
+277 verbose parsed url   auth: null,
+277 verbose parsed url   host: null,
+277 verbose parsed url   port: null,
+277 verbose parsed url   hostname: null,
+277 verbose parsed url   hash: null,
+277 verbose parsed url   search: null,
+277 verbose parsed url   query: null,
+277 verbose parsed url   pathname: '0.5.0-rc.1',
+277 verbose parsed url   path: '0.5.0-rc.1',
+277 verbose parsed url   href: '0.5.0-rc.1' }
+278 verbose addNamed [ 'generator-webapp', '0.5.0-rc.1' ]
+279 verbose addNamed [ '0.5.0-rc.1', '0.5.0-rc.1' ]
+280 silly lockFile b05e131a-generator-webapp-0-5-0-rc-1 generator-webapp@0.5.0-rc.1
+281 verbose lock generator-webapp@0.5.0-rc.1 /Users/erohan/.npm/b05e131a-generator-webapp-0-5-0-rc-1.lock
+282 verbose cache add [ 'cordova@3.5.0-0.2.4', null ]
+283 verbose cache add name=undefined spec="cordova@3.5.0-0.2.4" args=["cordova@3.5.0-0.2.4",null]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: 'cordova@3.5.0-0.2.4',
+284 verbose parsed url   path: 'cordova@3.5.0-0.2.4',
+284 verbose parsed url   href: 'cordova@3.5.0-0.2.4' }
+285 verbose cache add name="cordova" spec="3.5.0-0.2.4" args=["cordova","3.5.0-0.2.4"]
+286 verbose parsed url { protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: '3.5.0-0.2.4',
+286 verbose parsed url   path: '3.5.0-0.2.4',
+286 verbose parsed url   href: '3.5.0-0.2.4' }
+287 verbose addNamed [ 'cordova', '3.5.0-0.2.4' ]
+288 verbose addNamed [ '3.5.0-0.2.4', '3.5.0-0.2.4' ]
+289 silly lockFile b06f4b23-cordova-3-5-0-0-2-4 cordova@3.5.0-0.2.4
+290 verbose lock cordova@3.5.0-0.2.4 /Users/erohan/.npm/b06f4b23-cordova-3-5-0-0-2-4.lock
+291 verbose url raw glob/3.2.11
+292 verbose url resolving [ 'https://registry.npmjs.org/', './glob/3.2.11' ]
+293 verbose url resolved https://registry.npmjs.org/glob/3.2.11
+294 info trying registry request attempt 1 at 13:03:55
+295 http GET https://registry.npmjs.org/glob/3.2.11
+296 verbose url raw resolve/0.5.1
+297 verbose url resolving [ 'https://registry.npmjs.org/', './resolve/0.5.1' ]
+298 verbose url resolved https://registry.npmjs.org/resolve/0.5.1
+299 info trying registry request attempt 1 at 13:03:55
+300 http GET https://registry.npmjs.org/resolve/0.5.1
+301 verbose url raw nopt/1.0.10
+302 verbose url resolving [ 'https://registry.npmjs.org/', './nopt/1.0.10' ]
+303 verbose url resolved https://registry.npmjs.org/nopt/1.0.10
+304 info trying registry request attempt 1 at 13:03:55
+305 http GET https://registry.npmjs.org/nopt/1.0.10
+306 verbose url raw resolve/0.3.1
+307 verbose url resolving [ 'https://registry.npmjs.org/', './resolve/0.3.1' ]
+308 verbose url resolved https://registry.npmjs.org/resolve/0.3.1
+309 info trying registry request attempt 1 at 13:03:55
+310 http GET https://registry.npmjs.org/resolve/0.3.1
+311 verbose url raw yeoman-generator/0.14.2
+312 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-generator/0.14.2' ]
+313 verbose url resolved https://registry.npmjs.org/yeoman-generator/0.14.2
+314 info trying registry request attempt 1 at 13:03:55
+315 http GET https://registry.npmjs.org/yeoman-generator/0.14.2
+316 verbose url raw bower/1.3.5
+317 verbose url resolving [ 'https://registry.npmjs.org/', './bower/1.3.5' ]
+318 verbose url resolved https://registry.npmjs.org/bower/1.3.5
+319 info trying registry request attempt 1 at 13:03:55
+320 http GET https://registry.npmjs.org/bower/1.3.5
+321 verbose url raw generator-angular/0.9.1
+322 verbose url resolving [ 'https://registry.npmjs.org/', './generator-angular/0.9.1' ]
+323 verbose url resolved https://registry.npmjs.org/generator-angular/0.9.1
+324 info trying registry request attempt 1 at 13:03:55
+325 http GET https://registry.npmjs.org/generator-angular/0.9.1
+326 verbose url raw generator-karma/0.8.2
+327 verbose url resolving [ 'https://registry.npmjs.org/', './generator-karma/0.8.2' ]
+328 verbose url resolved https://registry.npmjs.org/generator-karma/0.8.2
+329 info trying registry request attempt 1 at 13:03:55
+330 http GET https://registry.npmjs.org/generator-karma/0.8.2
+331 verbose url raw npm/1.4.16
+332 verbose url resolving [ 'https://registry.npmjs.org/', './npm/1.4.16' ]
+333 verbose url resolved https://registry.npmjs.org/npm/1.4.16
+334 info trying registry request attempt 1 at 13:03:55
+335 http GET https://registry.npmjs.org/npm/1.4.16
+336 verbose url raw yo/1.2.0
+337 verbose url resolving [ 'https://registry.npmjs.org/', './yo/1.2.0' ]
+338 verbose url resolved https://registry.npmjs.org/yo/1.2.0
+339 info trying registry request attempt 1 at 13:03:55
+340 http GET https://registry.npmjs.org/yo/1.2.0
+341 verbose url raw ionic/1.0.14
+342 verbose url resolving [ 'https://registry.npmjs.org/', './ionic/1.0.14' ]
+343 verbose url resolved https://registry.npmjs.org/ionic/1.0.14
+344 info trying registry request attempt 1 at 13:03:55
+345 http GET https://registry.npmjs.org/ionic/1.0.14
+346 verbose url raw generator-webapp/0.5.0-rc.1
+347 verbose url resolving [ 'https://registry.npmjs.org/',
+347 verbose url resolving   './generator-webapp/0.5.0-rc.1' ]
+348 verbose url resolved https://registry.npmjs.org/generator-webapp/0.5.0-rc.1
+349 info trying registry request attempt 1 at 13:03:55
+350 http GET https://registry.npmjs.org/generator-webapp/0.5.0-rc.1
+351 verbose url raw cordova/3.5.0-0.2.4
+352 verbose url resolving [ 'https://registry.npmjs.org/', './cordova/3.5.0-0.2.4' ]
+353 verbose url resolved https://registry.npmjs.org/cordova/3.5.0-0.2.4
+354 info trying registry request attempt 1 at 13:03:55
+355 http GET https://registry.npmjs.org/cordova/3.5.0-0.2.4
+356 http 200 https://registry.npmjs.org/glob/3.2.11
+357 silly registry.get cb [ 200,
+357 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+357 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+357 silly registry.get     etag: '"PRZ5E6XT1NPSFIXJJE3IM6YT"',
+357 silly registry.get     'content-type': 'application/json',
+357 silly registry.get     'cache-control': 'max-age=30',
+357 silly registry.get     'content-length': '989',
+357 silly registry.get     'accept-ranges': 'bytes',
+357 silly registry.get     via: '1.1 varnish',
+357 silly registry.get     age: '133',
+357 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+357 silly registry.get     'x-cache': 'MISS',
+357 silly registry.get     'x-cache-hits': '0',
+357 silly registry.get     'x-timer': 'S1403611585.305087,VS0,VE102',
+357 silly registry.get     vary: 'Accept',
+357 silly registry.get     'keep-alive': 'timeout=10, max=50',
+357 silly registry.get     connection: 'Keep-Alive' } ]
+358 silly lockFile 82bef4e1-y-npmjs-org-glob-glob-3-2-11-tgz https://registry.npmjs.org/glob/-/glob-3.2.11.tgz
+359 verbose lock https://registry.npmjs.org/glob/-/glob-3.2.11.tgz /Users/erohan/.npm/82bef4e1-y-npmjs-org-glob-glob-3-2-11-tgz.lock
+360 http 200 https://registry.npmjs.org/resolve/0.3.1
+361 silly registry.get cb [ 200,
+361 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+361 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+361 silly registry.get     etag: '"4H8Z3I5F9NA8EKJLHBY9VWF1V"',
+361 silly registry.get     'content-type': 'application/json',
+361 silly registry.get     'cache-control': 'max-age=30',
+361 silly registry.get     'content-length': '781',
+361 silly registry.get     'accept-ranges': 'bytes',
+361 silly registry.get     via: '1.1 varnish',
+361 silly registry.get     age: '16162',
+361 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+361 silly registry.get     'x-cache': 'HIT',
+361 silly registry.get     'x-cache-hits': '1',
+361 silly registry.get     'x-timer': 'S1403611585.307011,VS0,VE105',
+361 silly registry.get     vary: 'Accept',
+361 silly registry.get     'keep-alive': 'timeout=10, max=50',
+361 silly registry.get     connection: 'Keep-Alive' } ]
+362 verbose addRemoteTarball [ 'https://registry.npmjs.org/glob/-/glob-3.2.11.tgz',
+362 verbose addRemoteTarball   '4a973f635b9190f715d10987d5c00fd2815ebe3d' ]
+363 info retry fetch attempt 1 at 13:03:56
+364 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/tmp.tgz
+365 http GET https://registry.npmjs.org/glob/-/glob-3.2.11.tgz
+366 silly lockFile e92308c0-js-org-resolve-resolve-0-3-1-tgz https://registry.npmjs.org/resolve/-/resolve-0.3.1.tgz
+367 verbose lock https://registry.npmjs.org/resolve/-/resolve-0.3.1.tgz /Users/erohan/.npm/e92308c0-js-org-resolve-resolve-0-3-1-tgz.lock
+368 verbose addRemoteTarball [ 'https://registry.npmjs.org/resolve/-/resolve-0.3.1.tgz',
+368 verbose addRemoteTarball   '34c63447c664c70598d1c9b126fc43b2a24310a4' ]
+369 info retry fetch attempt 1 at 13:03:56
+370 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/tmp.tgz
+371 http GET https://registry.npmjs.org/resolve/-/resolve-0.3.1.tgz
+372 http 200 https://registry.npmjs.org/nopt/1.0.10
+373 silly registry.get cb [ 200,
+373 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+373 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+373 silly registry.get     etag: '"BA5T6RGWU2CVIS5XHWZEBR2W7"',
+373 silly registry.get     'content-type': 'application/json',
+373 silly registry.get     'cache-control': 'max-age=30',
+373 silly registry.get     'content-length': '883',
+373 silly registry.get     'accept-ranges': 'bytes',
+373 silly registry.get     via: '1.1 varnish',
+373 silly registry.get     age: '241',
+373 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+373 silly registry.get     'x-cache': 'HIT',
+373 silly registry.get     'x-cache-hits': '1',
+373 silly registry.get     'x-timer': 'S1403611585.316905,VS0,VE98',
+373 silly registry.get     vary: 'Accept',
+373 silly registry.get     'keep-alive': 'timeout=10, max=50',
+373 silly registry.get     connection: 'Keep-Alive' } ]
+374 silly lockFile 4ce84396-y-npmjs-org-nopt-nopt-1-0-10-tgz https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz
+375 verbose lock https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz /Users/erohan/.npm/4ce84396-y-npmjs-org-nopt-nopt-1-0-10-tgz.lock
+376 verbose addRemoteTarball [ 'https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz',
+376 verbose addRemoteTarball   '6ddd21bd2a31417b92727dd585f8a6f37608ebee' ]
+377 info retry fetch attempt 1 at 13:03:56
+378 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/tmp.tgz
+379 http GET https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz
+380 http 200 https://registry.npmjs.org/yeoman-generator/0.14.2
+381 silly registry.get cb [ 200,
+381 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+381 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+381 silly registry.get     etag: '"DW37MRKWL8C43C09C6YI4DET"',
+381 silly registry.get     'content-type': 'application/json',
+381 silly registry.get     'cache-control': 'max-age=30',
+381 silly registry.get     'content-length': '2077',
+381 silly registry.get     'accept-ranges': 'bytes',
+381 silly registry.get     via: '1.1 varnish',
+381 silly registry.get     age: '0',
+381 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+381 silly registry.get     'x-cache': 'MISS',
+381 silly registry.get     'x-cache-hits': '0',
+381 silly registry.get     'x-timer': 'S1403611585.309589,VS0,VE114',
+381 silly registry.get     vary: 'Accept',
+381 silly registry.get     'keep-alive': 'timeout=10, max=50',
+381 silly registry.get     connection: 'Keep-Alive' } ]
+382 silly lockFile 8277025e-ator-yeoman-generator-0-14-2-tgz https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-0.14.2.tgz
+383 verbose lock https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-0.14.2.tgz /Users/erohan/.npm/8277025e-ator-yeoman-generator-0-14-2-tgz.lock
+384 verbose addRemoteTarball [ 'https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-0.14.2.tgz',
+384 verbose addRemoteTarball   '6d3e306d1118c83c25ac12a9d3dcb7870aa53397' ]
+385 info retry fetch attempt 1 at 13:03:56
+386 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436081-0.8644375202711672/tmp.tgz
+387 http GET https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-0.14.2.tgz
+388 http 200 https://registry.npmjs.org/resolve/0.5.1
+389 silly registry.get cb [ 200,
+389 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+389 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+389 silly registry.get     etag: '"4H8Z3I5F9NA8EKJLHBY9VWF1V"',
+389 silly registry.get     'content-type': 'application/json',
+389 silly registry.get     'cache-control': 'max-age=30',
+389 silly registry.get     'content-length': '846',
+389 silly registry.get     'accept-ranges': 'bytes',
+389 silly registry.get     via: '1.1 varnish',
+389 silly registry.get     age: '1660',
+389 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+389 silly registry.get     'x-cache': 'HIT',
+389 silly registry.get     'x-cache-hits': '1',
+389 silly registry.get     'x-timer': 'S1403611585.314379,VS0,VE120',
+389 silly registry.get     vary: 'Accept',
+389 silly registry.get     'keep-alive': 'timeout=10, max=50',
+389 silly registry.get     connection: 'Keep-Alive' } ]
+390 silly lockFile 77ad01b0-js-org-resolve-resolve-0-5-1-tgz https://registry.npmjs.org/resolve/-/resolve-0.5.1.tgz
+391 verbose lock https://registry.npmjs.org/resolve/-/resolve-0.5.1.tgz /Users/erohan/.npm/77ad01b0-js-org-resolve-resolve-0-5-1-tgz.lock
+392 verbose addRemoteTarball [ 'https://registry.npmjs.org/resolve/-/resolve-0.5.1.tgz',
+392 verbose addRemoteTarball   '15e4a222c4236bcd4cf85454412c2d0fb6524576' ]
+393 info retry fetch attempt 1 at 13:03:56
+394 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436091-0.5729533687699586/tmp.tgz
+395 http GET https://registry.npmjs.org/resolve/-/resolve-0.5.1.tgz
+396 http 200 https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz
+397 http 200 https://registry.npmjs.org/resolve/-/resolve-0.3.1.tgz
+398 http 200 https://registry.npmjs.org/glob/-/glob-3.2.11.tgz
+399 http 200 https://registry.npmjs.org/yeoman-generator/-/yeoman-generator-0.14.2.tgz
+400 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/tmp.tgz
+401 silly lockFile 6fc2e759-36072-0-4414673098362982-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package
+402 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package /Users/erohan/.npm/6fc2e759-36072-0-4414673098362982-package.lock
+403 silly lockFile 7c07e73a-36072-0-4414673098362982-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/tmp.tgz
+404 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/tmp.tgz /Users/erohan/.npm/7c07e73a-36072-0-4414673098362982-tmp-tgz.lock
+405 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/tmp.tgz
+406 silly lockFile 2b57084b-36077-0-8266978415194899-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package
+407 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package /Users/erohan/.npm/2b57084b-36077-0-8266978415194899-package.lock
+408 silly lockFile 5ee7269c-36077-0-8266978415194899-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/tmp.tgz
+409 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/tmp.tgz /Users/erohan/.npm/5ee7269c-36077-0-8266978415194899-tmp-tgz.lock
+410 silly gunzTarPerm modes [ '755', '644' ]
+411 silly gunzTarPerm modes [ '755', '644' ]
+412 http 200 https://registry.npmjs.org/resolve/-/resolve-0.5.1.tgz
+413 http 200 https://registry.npmjs.org/generator-karma/0.8.2
+414 silly registry.get cb [ 200,
+414 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+414 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+414 silly registry.get     etag: '"B1OCQ3SL0TCP5C2FWL4E8UV9S"',
+414 silly registry.get     'content-type': 'application/json',
+414 silly registry.get     'cache-control': 'max-age=30',
+414 silly registry.get     'content-length': '1462',
+414 silly registry.get     'accept-ranges': 'bytes',
+414 silly registry.get     via: '1.1 varnish',
+414 silly registry.get     age: '43',
+414 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+414 silly registry.get     'x-cache': 'MISS',
+414 silly registry.get     'x-cache-hits': '0',
+414 silly registry.get     'x-timer': 'S1403611585.448200,VS0,VE99',
+414 silly registry.get     vary: 'Accept',
+414 silly registry.get     'keep-alive': 'timeout=10, max=49',
+414 silly registry.get     connection: 'Keep-Alive' } ]
+415 silly gunzTarPerm extractEntry package.json
+416 silly gunzTarPerm extractEntry .gitignore
+417 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436091-0.5729533687699586/tmp.tgz
+418 silly lockFile 1650aad5-36091-0-5729533687699586-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436091-0.5729533687699586/package
+419 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436091-0.5729533687699586/package /Users/erohan/.npm/1650aad5-36091-0-5729533687699586-package.lock
+420 silly lockFile 4a5f6137-36091-0-5729533687699586-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436091-0.5729533687699586/tmp.tgz
+421 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436091-0.5729533687699586/tmp.tgz /Users/erohan/.npm/4a5f6137-36091-0-5729533687699586-tmp-tgz.lock
+422 silly gunzTarPerm extractEntry LICENSE
+423 silly gunzTarPerm extractEntry index.js
+424 silly gunzTarPerm extractEntry LICENSE
+425 silly gunzTarPerm extractEntry package.json
+426 silly gunzTarPerm modes [ '755', '644' ]
+427 silly lockFile 78cd5998--karma-generator-karma-0-8-2-tgz https://registry.npmjs.org/generator-karma/-/generator-karma-0.8.2.tgz
+428 verbose lock https://registry.npmjs.org/generator-karma/-/generator-karma-0.8.2.tgz /Users/erohan/.npm/78cd5998--karma-generator-karma-0-8-2-tgz.lock
+429 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-karma/-/generator-karma-0.8.2.tgz',
+429 verbose addRemoteTarball   '46c6cd5fa3bf8ff54553f748a4fa75108ed0d74f' ]
+430 info retry fetch attempt 1 at 13:03:56
+431 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/tmp.tgz
+432 silly gunzTarPerm extractEntry README.md
+433 silly gunzTarPerm extractEntry bin/nopt.js
+434 silly gunzTarPerm extractEntry package.json
+435 http GET https://registry.npmjs.org/generator-karma/-/generator-karma-0.8.2.tgz
+436 silly gunzTarPerm extractEntry example/async.js
+437 silly gunzTarPerm extractEntry example/sync.js
+438 http 200 https://registry.npmjs.org/yo/1.2.0
+439 silly registry.get cb [ 200,
+439 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+439 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+439 silly registry.get     etag: '"7ZVMM4J01V6W5TL92B5P4A4JZ"',
+439 silly registry.get     'content-type': 'application/json',
+439 silly registry.get     'cache-control': 'max-age=30',
+439 silly registry.get     'content-length': '1787',
+439 silly registry.get     'accept-ranges': 'bytes',
+439 silly registry.get     via: '1.1 varnish',
+439 silly registry.get     age: '0',
+439 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+439 silly registry.get     'x-cache': 'MISS',
+439 silly registry.get     'x-cache-hits': '0',
+439 silly registry.get     'x-timer': 'S1403611585.463589,VS0,VE103',
+439 silly registry.get     vary: 'Accept',
+439 silly registry.get     'keep-alive': 'timeout=10, max=49',
+439 silly registry.get     connection: 'Keep-Alive' } ]
+440 silly gunzTarPerm extractEntry LICENSE
+441 silly gunzTarPerm extractEntry index.js
+442 silly gunzTarPerm extractEntry examples/my-program.js
+443 silly gunzTarPerm extractEntry lib/nopt.js
+444 silly lockFile e6915dcc-gistry-npmjs-org-yo-yo-1-2-0-tgz https://registry.npmjs.org/yo/-/yo-1.2.0.tgz
+445 verbose lock https://registry.npmjs.org/yo/-/yo-1.2.0.tgz /Users/erohan/.npm/e6915dcc-gistry-npmjs-org-yo-yo-1-2-0-tgz.lock
+446 silly gunzTarPerm extractEntry readme.markdown
+447 silly gunzTarPerm extractEntry test/resolver.js
+448 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.2.0.tgz',
+448 verbose addRemoteTarball   'ce499ba3f06963772d77c03e8daefe8686d8047d' ]
+449 silly gunzTarPerm extractEntry .travis.yml
+450 silly gunzTarPerm extractEntry example/async.js
+451 info retry fetch attempt 1 at 13:03:56
+452 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/tmp.tgz
+453 http GET https://registry.npmjs.org/yo/-/yo-1.2.0.tgz
+454 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/tmp.tgz
+455 silly lockFile b5b814ca-6066-0-18343358230777085-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package
+456 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package /Users/erohan/.npm/b5b814ca-6066-0-18343358230777085-package.lock
+457 silly lockFile 1d18a099-6066-0-18343358230777085-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/tmp.tgz
+458 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/tmp.tgz /Users/erohan/.npm/1d18a099-6066-0-18343358230777085-tmp-tgz.lock
+459 silly gunzTarPerm extractEntry test/core.js
+460 silly gunzTarPerm extractEntry test/filter_sync.js
+461 silly gunzTarPerm modes [ '755', '644' ]
+462 silly gunzTarPerm extractEntry example/sync.js
+463 silly gunzTarPerm extractEntry lib/async.js
+464 silly gunzTarPerm extractEntry package.json
+465 silly gunzTarPerm extractEntry test/resolver_sync.js
+466 silly gunzTarPerm extractEntry .npmignore
+467 silly gunzTarPerm extractEntry README.md
+468 silly gunzTarPerm extractEntry lib/caller.js
+469 silly gunzTarPerm extractEntry lib/core.js
+470 silly gunzTarPerm extractEntry test/filter.js
+471 silly gunzTarPerm extractEntry test/mock.js
+472 silly gunzTarPerm extractEntry lib/node-modules-paths.js
+473 silly gunzTarPerm extractEntry lib/sync.js
+474 silly gunzTarPerm extractEntry lib/core.json
+475 silly gunzTarPerm extractEntry readme.markdown
+476 silly gunzTarPerm extractEntry test/core.js
+477 silly gunzTarPerm extractEntry test/filter.js
+478 silly gunzTarPerm extractEntry test/filter_sync.js
+479 silly gunzTarPerm extractEntry test/mock.js
+480 silly gunzTarPerm extractEntry test/mock_sync.js
+481 silly gunzTarPerm extractEntry test/resolver.js
+482 silly gunzTarPerm extractEntry test/resolver_sync.js
+483 silly gunzTarPerm extractEntry test/resolver/foo.js
+484 silly gunzTarPerm extractEntry test/resolver/mug.js
+485 silly gunzTarPerm extractEntry test/resolver/incorrect_main/package.json
+486 silly gunzTarPerm extractEntry test/resolver/incorrect_main/index.js
+487 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+488 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+489 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+490 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+491 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+492 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+493 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/package.json
+494 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/lib/index.js
+495 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+496 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+497 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+498 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+499 silly gunzTarPerm extractEntry test/resolver/quux/foo/index.js
+500 silly gunzTarPerm extractEntry test/resolver/without_basedir/main.js
+501 silly gunzTarPerm extractEntry test/resolver/without_basedir/node_modules/mymodule.js
+502 silly gunzTarPerm extractEntry LICENSE
+503 silly gunzTarPerm extractEntry glob.js
+504 silly gunzTarPerm extractEntry test/mock_sync.js
+505 silly gunzTarPerm extractEntry test/resolver/mug.js
+506 silly gunzTarPerm extractEntry .travis.yml
+507 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436081-0.8644375202711672/tmp.tgz
+508 silly lockFile 86733af1-36081-0-8644375202711672-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436081-0.8644375202711672/package
+509 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436081-0.8644375202711672/package /Users/erohan/.npm/86733af1-36081-0-8644375202711672-package.lock
+510 silly lockFile bdb5c780-36081-0-8644375202711672-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436081-0.8644375202711672/tmp.tgz
+511 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436081-0.8644375202711672/tmp.tgz /Users/erohan/.npm/bdb5c780-36081-0-8644375202711672-tmp-tgz.lock
+512 silly gunzTarPerm modes [ '755', '644' ]
+513 silly gunzTarPerm extractEntry test/resolver/foo.js
+514 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+515 silly gunzTarPerm extractEntry package.json
+516 silly gunzTarPerm extractEntry main.js
+517 silly gunzTarPerm extractEntry coverage/coverage.json
+518 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+519 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+520 silly gunzTarPerm extractEntry examples/g.js
+521 silly gunzTarPerm extractEntry examples/usr-local.js
+522 http 200 https://registry.npmjs.org/bower/1.3.5
+523 silly registry.get cb [ 200,
+523 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+523 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+523 silly registry.get     etag: '"6SBFIUM8LP5DNI1T4HZUJPHFJ"',
+523 silly registry.get     'content-type': 'application/json',
+523 silly registry.get     'cache-control': 'max-age=30',
+523 silly registry.get     'content-length': '2114',
+523 silly registry.get     'accept-ranges': 'bytes',
+523 silly registry.get     via: '1.1 varnish',
+523 silly registry.get     age: '1082',
+523 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+523 silly registry.get     'x-cache': 'HIT',
+523 silly registry.get     'x-cache-hits': '1',
+523 silly registry.get     'x-timer': 'S1403611585.435963,VS0,VE172',
+523 silly registry.get     vary: 'Accept',
+523 silly registry.get     'keep-alive': 'timeout=10, max=49',
+523 silly registry.get     connection: 'Keep-Alive' } ]
+524 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+525 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+526 silly gunzTarPerm extractEntry coverage/lcov.info
+527 silly gunzTarPerm extractEntry test/00-setup.js
+528 silly gunzTarPerm extractEntry test/cwd-test.js
+529 silly lockFile 87b93cf6--npmjs-org-bower-bower-1-3-5-tgz https://registry.npmjs.org/bower/-/bower-1.3.5.tgz
+530 verbose lock https://registry.npmjs.org/bower/-/bower-1.3.5.tgz /Users/erohan/.npm/87b93cf6--npmjs-org-bower-bower-1-3-5-tgz.lock
+531 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.3.5.tgz',
+531 verbose addRemoteTarball   '36a749fa8d0ac4d96609f721d15c93834bdaf98b' ]
+532 info retry fetch attempt 1 at 13:03:56
+533 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436269-0.3229924733750522/tmp.tgz
+534 silly gunzTarPerm extractEntry lib/base.js
+535 silly gunzTarPerm extractEntry lib/named-base.js
+536 http GET https://registry.npmjs.org/bower/-/bower-1.3.5.tgz
+537 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+538 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+539 http 200 https://registry.npmjs.org/generator-angular/0.9.1
+540 silly registry.get cb [ 200,
+540 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+540 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+540 silly registry.get     etag: '"879LQ514N14CEY6MQT6NPMXEW"',
+540 silly registry.get     'content-type': 'application/json',
+540 silly registry.get     'cache-control': 'max-age=30',
+540 silly registry.get     'content-length': '1908',
+540 silly registry.get     'accept-ranges': 'bytes',
+540 silly registry.get     via: '1.1 varnish',
+540 silly registry.get     age: '0',
+540 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+540 silly registry.get     'x-cache': 'MISS',
+540 silly registry.get     'x-cache-hits': '0',
+540 silly registry.get     'x-timer': 'S1403611585.440347,VS0,VE191',
+540 silly registry.get     vary: 'Accept',
+540 silly registry.get     'keep-alive': 'timeout=10, max=49',
+540 silly registry.get     connection: 'Keep-Alive' } ]
+541 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+542 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+543 silly lockFile 2b57084b-36077-0-8266978415194899-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package
+544 silly lockFile 2b57084b-36077-0-8266978415194899-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package
+545 silly lockFile 5ee7269c-36077-0-8266978415194899-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/tmp.tgz
+546 silly lockFile 5ee7269c-36077-0-8266978415194899-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/tmp.tgz
+547 verbose tar pack [ '/Users/erohan/.npm/nopt/1.0.10/package.tgz',
+547 verbose tar pack   '/var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package' ]
+548 verbose tarball /Users/erohan/.npm/nopt/1.0.10/package.tgz
+549 verbose folder /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package
+550 silly lockFile 2b57084b-36077-0-8266978415194899-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package
+551 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package /Users/erohan/.npm/2b57084b-36077-0-8266978415194899-package.lock
+552 silly lockFile 323b28f2-ohan-npm-nopt-1-0-10-package-tgz tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz
+553 verbose lock tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz /Users/erohan/.npm/323b28f2-ohan-npm-nopt-1-0-10-package-tgz.lock
+554 silly lockFile e9626f17-ular-generator-angular-0-9-1-tgz https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.1.tgz
+555 verbose lock https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.1.tgz /Users/erohan/.npm/e9626f17-ular-generator-angular-0-9-1-tgz.lock
+556 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.1.tgz',
+556 verbose addRemoteTarball   'e227b8586051b8746945bddd98dece4dd9f6b5f8' ]
+557 info retry fetch attempt 1 at 13:03:56
+558 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436300-0.5480873044580221/tmp.tgz
+559 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+560 silly gunzTarPerm extractEntry .travis.yml
+561 http GET https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.1.tgz
+562 silly gunzTarPerm extractEntry lib/core.js
+563 silly gunzTarPerm extractEntry lib/async.js
+564 silly gunzTarPerm extractEntry test/globstar-match.js
+565 silly gunzTarPerm extractEntry test/mark.js
+566 silly gunzTarPerm extractEntry lib/sync.js
+567 silly gunzTarPerm extractEntry lib/core.json
+568 silly gunzTarPerm extractEntry test/stat.js
+569 silly gunzTarPerm extractEntry test/bash-comparison.js
+570 silly gunzTarPerm extractEntry test/pause-resume.js
+571 silly gunzTarPerm extractEntry test/readme-issue.js
+572 silly gunzTarPerm extractEntry test/root-nomount.js
+573 silly gunzTarPerm extractEntry test/root.js
+574 http 200 https://registry.npmjs.org/generator-karma/-/generator-karma-0.8.2.tgz
+575 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/tmp.tgz
+576 silly lockFile dde8d6e3-36215-0-3916989953722805-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package
+577 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package /Users/erohan/.npm/dde8d6e3-36215-0-3916989953722805-package.lock
+578 silly lockFile e6cb9153-36215-0-3916989953722805-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/tmp.tgz
+579 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/tmp.tgz /Users/erohan/.npm/e6cb9153-36215-0-3916989953722805-tmp-tgz.lock
+580 http 200 https://registry.npmjs.org/yo/-/yo-1.2.0.tgz
+581 silly gunzTarPerm modes [ '755', '644' ]
+582 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/tmp.tgz
+583 silly lockFile 6148af9e-436226-0-899840896949172-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package
+584 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package /Users/erohan/.npm/6148af9e-436226-0-899840896949172-package.lock
+585 silly lockFile d3aa844e-436226-0-899840896949172-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/tmp.tgz
+586 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/tmp.tgz /Users/erohan/.npm/d3aa844e-436226-0-899840896949172-tmp-tgz.lock
+587 silly gunzTarPerm extractEntry package.json
+588 silly gunzTarPerm modes [ '755', '644' ]
+589 silly gunzTarPerm extractEntry test/new-glob-optional-options.js
+590 silly gunzTarPerm extractEntry test/zz-cleanup.js
+591 silly gunzTarPerm extractEntry app/index.js
+592 silly gunzTarPerm extractEntry readme.md
+593 silly gunzTarPerm extractEntry package.json
+594 silly gunzTarPerm extractEntry cli.js
+595 silly gunzTarPerm extractEntry yoyo.js
+596 silly gunzTarPerm extractEntry test/nocase-nomagic.js
+597 silly gunzTarPerm extractEntry test/bash-results.json
+598 silly gunzTarPerm extractEntry templates/karma.conf.js
+599 silly gunzTarPerm extractEntry templates/karma.conf.coffee
+600 silly gunzTarPerm extractEntry templates/travis.yml
+601 silly gunzTarPerm extractEntry readme.md
+602 silly lockFile 2b57084b-36077-0-8266978415194899-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package
+603 silly lockFile 2b57084b-36077-0-8266978415194899-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436077-0.8266978415194899/package
+604 silly gunzTarPerm extractEntry scripts/doctor.js
+605 silly gunzTarPerm extractEntry yeoman.txt
+606 silly lockFile 323b28f2-ohan-npm-nopt-1-0-10-package-tgz tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz
+607 silly lockFile 323b28f2-ohan-npm-nopt-1-0-10-package-tgz tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz
+608 silly lockFile 7f7456d5-s-erohan-npm-nopt-1-0-10-package /Users/erohan/.npm/nopt/1.0.10/package
+609 verbose lock /Users/erohan/.npm/nopt/1.0.10/package /Users/erohan/.npm/7f7456d5-s-erohan-npm-nopt-1-0-10-package.lock
+610 silly lockFile 7f7456d5-s-erohan-npm-nopt-1-0-10-package /Users/erohan/.npm/nopt/1.0.10/package
+611 silly lockFile 7f7456d5-s-erohan-npm-nopt-1-0-10-package /Users/erohan/.npm/nopt/1.0.10/package
+612 verbose tar unpack /Users/erohan/.npm/nopt/1.0.10/package.tgz
+613 silly lockFile 9e964b49-s-erohan-npm-nopt-1-0-10-package tar:///Users/erohan/.npm/nopt/1.0.10/package
+614 verbose lock tar:///Users/erohan/.npm/nopt/1.0.10/package /Users/erohan/.npm/9e964b49-s-erohan-npm-nopt-1-0-10-package.lock
+615 silly lockFile 323b28f2-ohan-npm-nopt-1-0-10-package-tgz tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz
+616 verbose lock tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz /Users/erohan/.npm/323b28f2-ohan-npm-nopt-1-0-10-package-tgz.lock
+617 silly gunzTarPerm modes [ '755', '644' ]
+618 silly gunzTarPerm extractEntry package.json
+619 silly gunzTarPerm extractEntry .npmignore
+620 silly gunzTarPerm extractEntry README.md
+621 silly gunzTarPerm extractEntry LICENSE
+622 silly gunzTarPerm extractEntry bin/nopt.js
+623 silly gunzTarPerm extractEntry examples/my-program.js
+624 silly gunzTarPerm extractEntry lib/nopt.js
+625 http 200 https://registry.npmjs.org/bower/-/bower-1.3.5.tgz
+626 silly lockFile dde8d6e3-36215-0-3916989953722805-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package
+627 silly lockFile dde8d6e3-36215-0-3916989953722805-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package
+628 silly lockFile e6cb9153-36215-0-3916989953722805-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/tmp.tgz
+629 silly lockFile e6cb9153-36215-0-3916989953722805-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/tmp.tgz
+630 verbose tar pack [ '/Users/erohan/.npm/generator-karma/0.8.2/package.tgz',
+630 verbose tar pack   '/var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package' ]
+631 verbose tarball /Users/erohan/.npm/generator-karma/0.8.2/package.tgz
+632 verbose folder /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package
+633 silly lockFile dde8d6e3-36215-0-3916989953722805-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package
+634 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package /Users/erohan/.npm/dde8d6e3-36215-0-3916989953722805-package.lock
+635 silly lockFile efc2988d-enerator-karma-0-8-2-package-tgz tar:///Users/erohan/.npm/generator-karma/0.8.2/package.tgz
+636 verbose lock tar:///Users/erohan/.npm/generator-karma/0.8.2/package.tgz /Users/erohan/.npm/efc2988d-enerator-karma-0-8-2-package-tgz.lock
+637 http 200 https://registry.npmjs.org/generator-webapp/0.5.0-rc.1
+638 silly registry.get cb [ 200,
+638 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+638 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+638 silly registry.get     etag: '"4MODHNKOO1B1WM670MP6QJ4FW"',
+638 silly registry.get     'content-type': 'application/json',
+638 silly registry.get     'cache-control': 'max-age=30',
+638 silly registry.get     'content-length': '1605',
+638 silly registry.get     'accept-ranges': 'bytes',
+638 silly registry.get     via: '1.1 varnish',
+638 silly registry.get     age: '0',
+638 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+638 silly registry.get     'x-cache': 'MISS',
+638 silly registry.get     'x-cache-hits': '0',
+638 silly registry.get     'x-timer': 'S1403611585.594167,VS0,VE171',
+638 silly registry.get     vary: 'Accept',
+638 silly registry.get     'keep-alive': 'timeout=10, max=48',
+638 silly registry.get     connection: 'Keep-Alive' } ]
+639 http 200 https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.1.tgz
+640 http 200 https://registry.npmjs.org/ionic/1.0.14
+641 silly registry.get cb [ 200,
+641 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+641 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+641 silly registry.get     etag: '"EC4VI1WHA03D4MYH810OE140D"',
+641 silly registry.get     'content-type': 'application/json',
+641 silly registry.get     'cache-control': 'max-age=30',
+641 silly registry.get     'content-length': '1138',
+641 silly registry.get     'accept-ranges': 'bytes',
+641 silly registry.get     via: '1.1 varnish',
+641 silly registry.get     age: '0',
+641 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+641 silly registry.get     'x-cache': 'MISS',
+641 silly registry.get     'x-cache-hits': '0',
+641 silly registry.get     'x-timer': 'S1403611585.580027,VS0,VE186',
+641 silly registry.get     vary: 'Accept',
+641 silly registry.get     'keep-alive': 'timeout=10, max=48',
+641 silly registry.get     connection: 'Keep-Alive' } ]
+642 silly lockFile 60a4d967--generator-webapp-0-5-0-rc-1-tgz https://registry.npmjs.org/generator-webapp/-/generator-webapp-0.5.0-rc.1.tgz
+643 verbose lock https://registry.npmjs.org/generator-webapp/-/generator-webapp-0.5.0-rc.1.tgz /Users/erohan/.npm/60a4d967--generator-webapp-0-5-0-rc-1-tgz.lock
+644 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-webapp/-/generator-webapp-0.5.0-rc.1.tgz',
+644 verbose addRemoteTarball   '1f126a6d876d65c8b464f56cfb37386ab110565d' ]
+645 silly lockFile 9abafa3f-npmjs-org-ionic-ionic-1-0-14-tgz https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz
+646 verbose lock https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz /Users/erohan/.npm/9abafa3f-npmjs-org-ionic-ionic-1-0-14-tgz.lock
+647 info retry fetch attempt 1 at 13:03:56
+648 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436433-0.09334443300031126/tmp.tgz
+649 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz',
+649 verbose addRemoteTarball   'fbbc6bf1932193cf5772a1a81b314a63fdfcf3a1' ]
+650 http GET https://registry.npmjs.org/generator-webapp/-/generator-webapp-0.5.0-rc.1.tgz
+651 info retry fetch attempt 1 at 13:03:56
+652 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436435-0.9834675567690283/tmp.tgz
+653 http GET https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz
+654 silly lockFile 6fc2e759-36072-0-4414673098362982-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package
+655 silly lockFile 6fc2e759-36072-0-4414673098362982-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package
+656 silly lockFile 7c07e73a-36072-0-4414673098362982-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/tmp.tgz
+657 silly lockFile 7c07e73a-36072-0-4414673098362982-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/tmp.tgz
+658 verbose tar pack [ '/Users/erohan/.npm/resolve/0.3.1/package.tgz',
+658 verbose tar pack   '/var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package' ]
+659 verbose tarball /Users/erohan/.npm/resolve/0.3.1/package.tgz
+660 verbose folder /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package
+661 silly lockFile 6fc2e759-36072-0-4414673098362982-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package
+662 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436072-0.4414673098362982/package /Users/erohan/.npm/6fc2e759-36072-0-4414673098362982-package.lock
+663 silly lockFile fa17cd51-an-npm-resolve-0-3-1-package-tgz tar:///Users/erohan/.npm/resolve/0.3.1/package.tgz
+664 verbose lock tar:///Users/erohan/.npm/resolve/0.3.1/package.tgz /Users/erohan/.npm/fa17cd51-an-npm-resolve-0-3-1-package-tgz.lock
+665 silly lockFile 6148af9e-436226-0-899840896949172-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package
+666 silly lockFile 6148af9e-436226-0-899840896949172-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package
+667 silly lockFile d3aa844e-436226-0-899840896949172-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/tmp.tgz
+668 silly lockFile d3aa844e-436226-0-899840896949172-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/tmp.tgz
+669 verbose tar pack [ '/Users/erohan/.npm/yo/1.2.0/package.tgz',
+669 verbose tar pack   '/var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package' ]
+670 verbose tarball /Users/erohan/.npm/yo/1.2.0/package.tgz
+671 verbose folder /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package
+672 silly lockFile 6148af9e-436226-0-899840896949172-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package
+673 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436226-0.899840896949172/package /Users/erohan/.npm/6148af9e-436226-0-899840896949172-package.lock
+674 silly lockFile e458380a--erohan-npm-yo-1-2-0-package-tgz tar:///Users/erohan/.npm/yo/1.2.0/package.tgz
+675 verbose lock tar:///Users/erohan/.npm/yo/1.2.0/package.tgz /Users/erohan/.npm/e458380a--erohan-npm-yo-1-2-0-package-tgz.lock
+676 http 200 https://registry.npmjs.org/cordova/3.5.0-0.2.4
+677 silly registry.get cb [ 200,
+677 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+677 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+677 silly registry.get     etag: '"2GZVR1P3TXA4RL33WIDI9Q4E5"',
+677 silly registry.get     'content-type': 'application/json',
+677 silly registry.get     'cache-control': 'max-age=30',
+677 silly registry.get     'content-length': '2811',
+677 silly registry.get     'accept-ranges': 'bytes',
+677 silly registry.get     via: '1.1 varnish',
+677 silly registry.get     age: '4380',
+677 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+677 silly registry.get     'x-cache': 'HIT',
+677 silly registry.get     'x-cache-hits': '1',
+677 silly registry.get     'x-timer': 'S1403611585.635996,VS0,VE179',
+677 silly registry.get     vary: 'Accept',
+677 silly registry.get     'keep-alive': 'timeout=10, max=48',
+677 silly registry.get     connection: 'Keep-Alive' } ]
+678 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436300-0.5480873044580221/tmp.tgz
+679 silly lockFile 0039ef0b-36300-0-5480873044580221-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436300-0.5480873044580221/package
+680 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436300-0.5480873044580221/package /Users/erohan/.npm/0039ef0b-36300-0-5480873044580221-package.lock
+681 silly lockFile 8ea4ac1d-36300-0-5480873044580221-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436300-0.5480873044580221/tmp.tgz
+682 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436300-0.5480873044580221/tmp.tgz /Users/erohan/.npm/8ea4ac1d-36300-0-5480873044580221-tmp-tgz.lock
+683 silly lockFile dde8d6e3-36215-0-3916989953722805-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package
+684 silly lockFile dde8d6e3-36215-0-3916989953722805-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436215-0.3916989953722805/package
+685 http 200 https://registry.npmjs.org/npm/1.4.16
+686 silly registry.get cb [ 200,
+686 silly registry.get   { date: 'Tue, 24 Jun 2014 12:06:25 GMT',
+686 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+686 silly registry.get     etag: '"8OG8B0ZQR1FDAZNT0NV247YSR"',
+686 silly registry.get     'content-type': 'application/json',
+686 silly registry.get     'cache-control': 'max-age=30',
+686 silly registry.get     'content-length': '17126',
+686 silly registry.get     'accept-ranges': 'bytes',
+686 silly registry.get     via: '1.1 varnish',
+686 silly registry.get     age: '0',
+686 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+686 silly registry.get     'x-cache': 'MISS',
+686 silly registry.get     'x-cache-hits': '0',
+686 silly registry.get     'x-timer': 'S1403611585.452449,VS0,VE349',
+686 silly registry.get     vary: 'Accept',
+686 silly registry.get     'keep-alive': 'timeout=10, max=49',
+686 silly registry.get     connection: 'Keep-Alive' } ]
+687 silly lockFile 8dd42be6--cordova-cordova-3-5-0-0-2-4-tgz https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz
+688 verbose lock https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz /Users/erohan/.npm/8dd42be6--cordova-cordova-3-5-0-0-2-4-tgz.lock
+689 silly lockFile efc2988d-enerator-karma-0-8-2-package-tgz tar:///Users/erohan/.npm/generator-karma/0.8.2/package.tgz
+690 silly lockFile efc2988d-enerator-karma-0-8-2-package-tgz tar:///Users/erohan/.npm/generator-karma/0.8.2/package.tgz
+691 silly gunzTarPerm modes [ '755', '644' ]
+692 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz',
+692 verbose addRemoteTarball   '42ecb5bf50a456a2d95f0e95b3c542393f6af538' ]
+693 info retry fetch attempt 1 at 13:03:56
+694 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436488-0.7659640705678612/tmp.tgz
+695 silly lockFile 1766decd-pm-generator-karma-0-8-2-package /Users/erohan/.npm/generator-karma/0.8.2/package
+696 verbose lock /Users/erohan/.npm/generator-karma/0.8.2/package /Users/erohan/.npm/1766decd-pm-generator-karma-0-8-2-package.lock
+697 http GET https://registry.npmjs.org/cordova/-/cordova-3.5.0-0.2.4.tgz
+698 silly lockFile 1766decd-pm-generator-karma-0-8-2-package /Users/erohan/.npm/generator-karma/0.8.2/package
+699 silly lockFile 1766decd-pm-generator-karma-0-8-2-package /Users/erohan/.npm/generator-karma/0.8.2/package
+700 verbose tar unpack /Users/erohan/.npm/generator-karma/0.8.2/package.tgz
+701 silly lockFile 169f916c-pm-generator-karma-0-8-2-package tar:///Users/erohan/.npm/generator-karma/0.8.2/package
+702 verbose lock tar:///Users/erohan/.npm/generator-karma/0.8.2/package /Users/erohan/.npm/169f916c-pm-generator-karma-0-8-2-package.lock
+703 silly lockFile efc2988d-enerator-karma-0-8-2-package-tgz tar:///Users/erohan/.npm/generator-karma/0.8.2/package.tgz
+704 verbose lock tar:///Users/erohan/.npm/generator-karma/0.8.2/package.tgz /Users/erohan/.npm/efc2988d-enerator-karma-0-8-2-package-tgz.lock
+705 silly gunzTarPerm extractEntry package.json
+706 silly lockFile 68239340-try-npmjs-org-npm-npm-1-4-16-tgz https://registry.npmjs.org/npm/-/npm-1.4.16.tgz
+707 verbose lock https://registry.npmjs.org/npm/-/npm-1.4.16.tgz /Users/erohan/.npm/68239340-try-npmjs-org-npm-npm-1-4-16-tgz.lock
+708 verbose tar unpack /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436269-0.3229924733750522/tmp.tgz
+709 silly lockFile af7d489a-36269-0-3229924733750522-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436269-0.3229924733750522/package
+710 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436269-0.3229924733750522/package /Users/erohan/.npm/af7d489a-36269-0-3229924733750522-package.lock
+711 silly lockFile f993a84b-36269-0-3229924733750522-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436269-0.3229924733750522/tmp.tgz
+712 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436269-0.3229924733750522/tmp.tgz /Users/erohan/.npm/f993a84b-36269-0-3229924733750522-tmp-tgz.lock
+713 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-1.4.16.tgz',
+713 verbose addRemoteTarball   'e34c28a0cdd1dea942580ebf65660b21e912434f' ]
+714 silly gunzTarPerm modes [ '755', '644' ]
+715 info retry fetch attempt 1 at 13:03:56
+716 verbose fetch to= /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436517-0.6860895249992609/tmp.tgz
+717 silly gunzTarPerm modes [ '755', '644' ]
+718 silly gunzTarPerm extractEntry script-base.js
+719 silly gunzTarPerm extractEntry util.js
+720 silly lockFile 9e964b49-s-erohan-npm-nopt-1-0-10-package tar:///Users/erohan/.npm/nopt/1.0.10/package
+721 silly lockFile 9e964b49-s-erohan-npm-nopt-1-0-10-package tar:///Users/erohan/.npm/nopt/1.0.10/package
+722 http GET https://registry.npmjs.org/npm/-/npm-1.4.16.tgz
+723 silly lockFile 323b28f2-ohan-npm-nopt-1-0-10-package-tgz tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz
+724 silly lockFile 323b28f2-ohan-npm-nopt-1-0-10-package-tgz tar:///Users/erohan/.npm/nopt/1.0.10/package.tgz
+725 silly gunzTarPerm extractEntry package.json
+726 verbose chmod /Users/erohan/.npm/nopt/1.0.10/package.tgz 644
+727 verbose chown /Users/erohan/.npm/nopt/1.0.10/package.tgz [ 425700227, 242196210 ]
+728 silly gunzTarPerm extractEntry package.json
+729 silly lockFile 4ce84396-y-npmjs-org-nopt-nopt-1-0-10-tgz https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz
+730 silly lockFile 4ce84396-y-npmjs-org-nopt-nopt-1-0-10-tgz https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz
+731 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+732 silly lockFile 1be903a1-nopt-1-0-10 nopt@1.0.10
+733 silly gunzTarPerm extractEntry app/index.js
+734 silly gunzTarPerm extractEntry readme.md
+735 silly resolved [ { name: 'nopt',
+735 silly resolved     version: '1.0.10',
+735 silly resolved     description: 'Option parsing for Node, supporting types, shorthands, etc. Used by npm.',
+735 silly resolved     author:
+735 silly resolved      { name: 'Isaac Z. Schlueter',
+735 silly resolved        email: 'i@izs.me',
+735 silly resolved        url: 'http://blog.izs.me/' },
+735 silly resolved     main: 'lib/nopt.js',
+735 silly resolved     scripts: { test: 'node lib/nopt.js' },
+735 silly resolved     repository: { type: 'git', url: 'http://github.com/isaacs/nopt' },
+735 silly resolved     bin: { nopt: './bin/nopt.js' },
+735 silly resolved     license:
+735 silly resolved      { type: 'MIT',
+735 silly resolved        url: 'https://github.com/isaacs/nopt/raw/master/LICENSE' },
+735 silly resolved     dependencies: { abbrev: '1' },
+735 silly resolved     readme: 'If you want to write an option parser, and have it be good, there are\ntwo ways to do it.  The Right Way, and the Wrong Way.\n\nThe Wrong Way is to sit down and write an option parser.  We\'ve all done\nthat.\n\nThe Right Way is to write some complex configurable program with so many\noptions that you go half-insane just trying to manage them all, and put\nit off with duct-tape solutions until you see exactly to the core of the\nproblem, and finally snap and write an awesome option parser.\n\nIf you want to write an option parser, don\'t write an option parser.\nWrite a package manager, or a source control system, or a service\nrestarter, or an operating system.  You probably won\'t end up with a\ngood one of those, but if you don\'t give up, and you are relentless and\ndiligent enough in your procrastination, you may just end up with a very\nnice option parser.\n\n## USAGE\n\n    // my-program.js\n    var nopt = require("nopt")\n      , Stream = require("stream").Stream\n      , path = require("path")\n      , knownOpts = { "foo" : [String, null]\n                    , "bar" : [Stream, Number]\n                    , "baz" : path\n                    , "bloo" : [ "big", "medium", "small" ]\n                    , "flag" : Boolean\n                    , "pick" : Boolean\n                    , "many" : [String, Array]\n                    }\n      , shortHands = { "foofoo" : ["--foo", "Mr. Foo"]\n                     , "b7" : ["--bar", "7"]\n                     , "m" : ["--bloo", "medium"]\n                     , "p" : ["--pick"]\n                     , "f" : ["--flag"]\n                     }\n                 // everything is optional.\n                 // knownOpts and shorthands default to {}\n                 // arg list defaults to process.argv\n                 // slice defaults to 2\n      , parsed = nopt(knownOpts, shortHands, process.argv, 2)\n    console.log(parsed)\n\nThis would give you support for any of the following:\n\n```bash\n$ node my-program.js --foo "blerp" --no-flag\n{ "foo" : "blerp", "flag" : false }\n\n$ node my-program.js ---bar 7 --foo "Mr. Hand" --flag\n{ bar: 7, foo: "Mr. Hand", flag: true }\n\n$ node my-program.js --foo "blerp" -f -----p\n{ foo: "blerp", flag: true, pick: true }\n\n$ node my-program.js -fp --foofoo\n{ foo: "Mr. Foo", flag: true, pick: true }\n\n$ node my-program.js --foofoo -- -fp  # -- stops the flag parsing.\n{ foo: "Mr. Foo", argv: { remain: ["-fp"] } }\n\n$ node my-program.js --blatzk 1000 -fp # unknown opts are ok.\n{ blatzk: 1000, flag: true, pick: true }\n\n$ node my-program.js --blatzk true -fp # but they need a value\n{ blatzk: true, flag: true, pick: true }\n\n$ node my-program.js --no-blatzk -fp # unless they start with "no-"\n{ blatzk: false, flag: true, pick: true }\n\n$ node my-program.js --baz b/a/z # known paths are resolved.\n{ baz: "/Users/isaacs/b/a/z" }\n\n# if Array is one of the types, then it can take many\n# values, and will always be an array.  The other types provided\n# specify what types are allowed in the list.\n\n$ node my-program.js --many 1 --many null --many foo\n{ many: ["1", "null", "foo"] }\n\n$ node my-program.js --many foo\n{ many: ["foo"] }\n```\n\nRead the tests at the bottom of `lib/nopt.js` for more examples of\nwhat this puppy can do.\n\n## Types\n\nThe following types are supported, and defined on `nopt.typeDefs`\n\n* String: A normal string.  No parsing is done.\n* path: A file system path.  Gets resolved against cwd if not absolute.\n* url: A url.  If it doesn\'t parse, it isn\'t accepted.\n* Number: Must be numeric.\n* Date: Must parse as a date. If it does, and `Date` is one of the options,\n  then it will return a Date object, not a string.\n* Boolean: Must be either `true` or `false`.  If an option is a boolean,\n  then it does not need a value, and its presence will imply `true` as\n  the value.  To negate boolean flags, do `--no-whatever` or `--whatever\n  false`\n* NaN: Means that the option is strictly not allowed.  Any value will\n  fail.\n* Stream: An object matching the "Stream" class in node.  Valuable\n  for use when validating programmatically.  (npm uses this to let you\n  supply any WriteStream on the `outfd` and `logfd` config options.)\n* Array: If `Array` is specified as one of the types, then the value\n  will be parsed as a list of options.  This means that multiple values\n  can be specified, and that the value will always be an array.\n\nIf a type is an array of values not on this list, then those are\nconsidered valid values.  For instance, in the example above, the\n`--bloo` option can only be one of `"big"`, `"medium"`, or `"small"`,\nand any other value will be rejected.\n\nWhen parsing unknown fields, `"true"`, `"false"`, and `"null"` will be\ninterpreted as their JavaScript equivalents, and numeric values will be\ninterpreted as a number.\n\nYou can also mix types and values, or multiple types, in a list.  For\ninstance `{ blah: [Number, null] }` would allow a value to be set to\neither a Number or null.\n\nTo define a new type, add it to `nopt.typeDefs`.  Each item in that\nhash is an object with a `type` member and a `validate` method.  The\n`type` member is an object that matches what goes in the type list.  The\n`validate` method is a function that gets called with `validate(data,\nkey, val)`.  Validate methods should assign `data[key]` to the valid\nvalue of `val` if it can be handled properly, or return boolean\n`false` if it cannot.\n\nYou can also call `nopt.clean(data, types, typeDefs)` to clean up a\nconfig object and remove its invalid properties.\n\n## Error Handling\n\nBy default, nopt outputs a warning to standard error when invalid\noptions are found.  You can change this behavior by assigning a method\nto `nopt.invalidHandler`.  This method will be called with\nthe offending `nopt.invalidHandler(key, val, types)`.\n\nIf no `nopt.invalidHandler` is assigned, then it will console.error\nits whining.  If it is assigned to boolean `false` then the warning is\nsuppressed.\n\n## Abbreviations\n\nYes, they are supported.  If you define options like this:\n\n```javascript\n{ "foolhardyelephants" : Boolean\n, "pileofmonkeys" : Boolean }\n```\n\nThen this will work:\n\n```bash\nnode program.js --foolhar --pil\nnode program.js --no-f --pileofmon\n# etc.\n```\n\n## Shorthands\n\nShorthands are a hash of shorter option names to a snippet of args that\nthey expand to.\n\nIf multiple one-character shorthands are all combined, and the\ncombination does not unambiguously match any other option or shorthand,\nthen they will be broken up into their constituent parts.  For example:\n\n```json\n{ "s" : ["--loglevel", "silent"]\n, "g" : "--global"\n, "f" : "--force"\n, "p" : "--parseable"\n, "l" : "--long"\n}\n```\n\n```bash\nnpm ls -sgflp\n# just like doing this:\nnpm ls --loglevel silent --global --force --long --parseable\n```\n\n## The Rest of the args\n\nThe config object returned by nopt is given a special member called\n`argv`, which is an object with the following fields:\n\n* `remain`: The remaining args after all the parsing has occurred.\n* `original`: The args as they originally appeared.\n* `cooked`: The args after flags and shorthands are expanded.\n\n## Slicing\n\nNode programs are called with more or less the exact argv as it appears\nin C land, after the v8 and node-specific options have been plucked off.\nAs such, `argv[0]` is always `node` and `argv[1]` is always the\nJavaScript program being run.\n\nThat\'s usually not very useful to you.  So they\'re sliced off by\ndefault.  If you want them, then you can pass in `0` as the last\nargument, or any other number that you\'d like to slice off the start of\nthe list.\n',
+735 silly resolved     readmeFilename: 'README.md',
+735 silly resolved     bugs: { url: 'https://github.com/isaacs/nopt/issues' },
+735 silly resolved     homepage: 'https://github.com/isaacs/nopt',
+735 silly resolved     _id: 'nopt@1.0.10',
+735 silly resolved     dist: { shasum: 'd0700a7a6ca95402dcff76c848dfe0a46dcdbeb4' },
+735 silly resolved     _from: 'nopt@1.0.10',
+735 silly resolved     _resolved: 'https://registry.npmjs.org/nopt/-/nopt-1.0.10.tgz' } ]
+736 info install nopt@1.0.10 into /usr/local/lib/node_modules/grunt-cli
+737 info installOne nopt@1.0.10
+738 silly gunzTarPerm extractEntry controller/index.js
+739 silly gunzTarPerm extractEntry controller/USAGE
+740 silly gunzTarPerm extractEntry .npmignore
+741 silly gunzTarPerm extractEntry README.md
+742 info /usr/local/lib/node_modules/grunt-cli/node_modules/nopt unbuild
+743 info preuninstall nopt@1.0.10
+744 silly lockFile b5b814ca-6066-0-18343358230777085-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package
+745 silly lockFile b5b814ca-6066-0-18343358230777085-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package
+746 silly lockFile 1d18a099-6066-0-18343358230777085-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/tmp.tgz
+747 silly lockFile 1d18a099-6066-0-18343358230777085-tmp-tgz tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/tmp.tgz
+748 info uninstall nopt@1.0.10
+749 verbose false,/usr/local/lib/node_modules,/usr/local/lib/node_modules/grunt-cli/node_modules unbuild nopt@1.0.10
+750 verbose /usr/local/lib/node_modules/grunt-cli/node_modules/.bin,[object Object] binRoot
+751 verbose tar pack [ '/Users/erohan/.npm/glob/3.2.11/package.tgz',
+751 verbose tar pack   '/var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package' ]
+752 verbose tarball /Users/erohan/.npm/glob/3.2.11/package.tgz
+753 verbose folder /var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package
+754 silly lockFile b5b814ca-6066-0-18343358230777085-package tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package
+755 verbose lock tar:///var/folders/35/gtq0tv4s1x34c42qtcng8v18cnz_w3/T/npm-7713-YXguW5Sv/1403611436066-0.18343358230777085/package /Users/erohan/.npm/b5b814ca-6066-0-18343358230777085-package.lock
+756 silly lockFile 181fc552-ohan-npm-glob-3-2-11-package-tgz tar:///Users/erohan/.npm/glob/3.2.11/package.tgz
+757 verbose lock tar:///Users/erohan/.npm/glob/3.2.11/package.tgz /Users/erohan/.npm/181fc552-ohan-npm-glob-3-2-11-package-tgz.lock
+758 silly gunzTarPerm extractEntry templates/karma.conf.js
+759 info /usr/local/lib/node_modules/grunt-cli/node_modules/nopt unbuild
+760 silly gunzTarPerm extractEntry LICENSE
+761 info preuninstall nopt@1.0.10
+762 silly gunzTarPerm extractEntry decorator/index.js
+763 silly gunzTarPerm extractEntry decorator/USAGE
+764 info uninstall nopt@1.0.10
+765 verbose false,/usr/local/lib/node_modules,/usr/local/lib/node_modules/grunt-cli/node_modules unbuild nopt@1.0.10
+766 verbose /usr/local/lib/node_modules/grunt-cli/node_modules/.bin,[object Object] binRoot
+767 silly gunzTarPerm extractEntry Gruntfile.js
+768 silly gunzTarPerm extractEntry HOOKS.md
+769 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt'
+769 error error rolling back  nopt@1.0.10 { [Error: EACCES, unlink '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt']
+769 error error rolling back   errno: 3,
+769 error error rolling back   code: 'EACCES',
+769 error error rolling back   path: '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt' }
+770 error Error: EACCES, unlink '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt'
+770 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt']
+770 error   errno: 3,
+770 error   code: 'EACCES',
+770 error   path: '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt' }
+771 error Please try running this command again as root/Administrator.
+772 error System Darwin 13.2.0
+773 error command "node" "/usr/local/bin/npm" "update" "-g"
+774 error cwd /Users/erohan/Development/McCannBlue/LivingCreativity/Heatmap
+775 error node -v v0.10.26
+776 error npm -v 1.4.3
+777 error path /usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt
+778 error code EACCES
+779 error errno 3
+780 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt'
+781 verbose exit [ 3, true ]
