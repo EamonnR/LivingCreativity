@@ -11,7 +11,7 @@ function initialize() {
     zoomControl: false,
     scaleControl: false,
     streetViewControl: false,
-    draggable: false,
+    //draggable: false,
     keyboardShortcuts: false,
     disableDoubleClickZoom: false,
     styles: light_grey_style
